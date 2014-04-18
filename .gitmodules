@@ -1,0 +1,3 @@
+[submodule "taskwarrior.org/task"]
+	path = taskwarrior.org/task
+	url = https://git.tasktools.org/scm/tm/task.git

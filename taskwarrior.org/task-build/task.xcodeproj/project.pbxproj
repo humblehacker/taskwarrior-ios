@@ -1,0 +1,3212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2B18A897C5F44FFEBF379FAE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				661E68CD59114E4D8327BDA9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		7D1CB762A73E420E94B6FC4D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8B40B077066447E5B42EAFAF /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				6AF9FF67904E471782E1C4E7 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				12F9185BFD3D4C77894A97FF /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		A237BF8D974D49D38CA5DE8C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4FA0A64B5D3D407887855EBD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0025D5FD08A64533806876F2 /* CMake Rules */,
+			);
+			dependencies = (
+				545740D2A8B74DE7BE91D2B4 /* PBXTargetDependency */,
+				EECAD350F6124D458D74BC92 /* PBXTargetDependency */,
+				7E02853320144CC0984C5AE8 /* PBXTargetDependency */,
+				CC935D7D87294D91B9A55E06 /* PBXTargetDependency */,
+				5610B10258AF4D8AAEFE95DF /* PBXTargetDependency */,
+				484BA881939B46A49EA86935 /* PBXTargetDependency */,
+				2A7DEB6F00994B7BAE6729DA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CAF183CBED304B2FBF476759 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8A6D8AE3732E4717ACC094FA /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				834C462DE8ED41A7A9971DB0 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4949A29EFAF34BD5B0497607 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01D00624A58041C58C911B0C /* Task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBF25CE171EA456C9A7FE382 /* Task.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		059F916C6F0A47599E925B81 /* CmdImport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA1DD6A620024C2FB8604D25 /* CmdImport.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		06B70920B1A64EE3B55C20CE /* CmdMerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 978C1E6364D44A42934F3672 /* CmdMerge.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0CEF9753A59B43DC9CED9878 /* CmdStart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8A602B633D843F7AB215A4F /* CmdStart.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E34BD95D31A4FB98DA66D6A /* ColDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B393B30FABF4ED8B785E767 /* ColDate.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		114CA8B61FDF4C9DAB967EED /* CmdPrepend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 604B7731A67449C4B9016E94 /* CmdPrepend.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		13733F862CCD4E8881DCA7D6 /* rules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E526790E0C3644F4AF4BC2C9 /* rules.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		14A09F628FC1447DBACFF2EC /* ColUrgency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18A10D438F446708568C354 /* ColUrgency.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1B9C9BB9AD7E4D8C8CE0387D /* CmdCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65E0E0D7996140269EAE3CB2 /* CmdCount.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1BF1314169934351B35FB7C3 /* TransportCurl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5ED7F56F3BD4403AD2D14A1 /* TransportCurl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D07A8556921441CA1D2EE4C /* CmdStop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0096034B080948B7A36B2B87 /* CmdStop.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		20429074EB744C21BFA1BFFC /* CmdTags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFB02C27B6F041C6B365DA08 /* CmdTags.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2095E36B8E8C446F8F2CA42C /* ColStart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFA925623DA244F5B96137B1 /* ColStart.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		22E45C64A02D4C19B7C7E79F /* TDB2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7078807B9AB4E4E94E8233F /* TDB2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		23FA899BFEFA4C92B8D0A655 /* CmdSummary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B177112984C3B9214C4BA /* CmdSummary.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2483CA383DAF46CCAD5638C1 /* interactive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D765DA00233B4C4AB8BA3F7B /* interactive.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2491BC5BA48E4AE093CAD250 /* CmdPush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0872F5B2D70A41929F489D45 /* CmdPush.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		267CC0E549CE4FCB9C4D85EC /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3768BB464EBF4DC883C67CAE /* Color.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2C23B8C56DA34842B8AFAE4C /* ColRecur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 455FB7A37D44449089C11913 /* ColRecur.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		31A34028BE744CC5BD257854 /* wcwidth6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 121C35D91BFF47428B51056E /* wcwidth6.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		31B8E968A0324F02A2243E78 /* CmdStats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8249B03D7F074F1D8C940BCD /* CmdStats.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		321FA7602F4241C1B4AA845F /* recur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93EDCD12BBE74B2C8A8447E3 /* recur.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		32A512B397784371989E2846 /* CmdLogo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5B468832B124ACDB7F11F09 /* CmdLogo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		359B8A6BA7904864ABB00E9D /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C100BEDEBD344ED6ADE24188 /* Config.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		35E687DDFF044251A93986D0 /* CmdShow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B97BFDBA97F74E48A2B229AC /* CmdShow.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3645834CA09045B087CB9956 /* ColString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0978FE281F748A1B736181B /* ColString.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3A9AC16D6B674EFE9DEAB050 /* CmdPull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B90B16E29A7549638D39B9E1 /* CmdPull.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C88A7134B26413EB9A9A0BA /* Msg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54D4A5F60F74EE5B11DEF5B /* Msg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		40B21FD325574E5F85930D58 /* dependency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B29AF59196B4D5D856F7436 /* dependency.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		41AFC8EB277643098D7389DB /* ColMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68C85D87CFB406F96F60911 /* ColMask.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		45C048BFF37F48DE90ABCED1 /* ColScheduled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CC4FB3D8954CB1A0B0340A /* ColScheduled.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		460FA885363E4CF9BF38F526 /* ColID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50E873D00EE414BBF698D32 /* ColID.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		499C4592DCB64963AF215194 /* ColDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D5BFBB024A441D8FECCFD6 /* ColDescription.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4BA7D5327D144954B2C5BA37 /* ColEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8BC1E06024092B51E0BA1 /* ColEnd.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4F9267662DAF4A34A84C3F6B /* ColWait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C5548FFAA8843368636A6E9 /* ColWait.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		51975DDFBEBB4C018DBC3BD7 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457BD2AC16FF440ABC9205DB /* Timer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		55B07513A9434590B6B58B80 /* Directory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 594D696DE3A3415C82481E9C /* Directory.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		564C41EDFC9A4638BB0D1DB3 /* CmdConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4C87BEDFB7C48CE91102877 /* CmdConfig.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5806E51E0C4C4B7FAF3E0420 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B05E71FA61D4849A784195F /* File.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		59584A434BCA41CB84C4015E /* CmdDenotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA101838E34437B9236888E /* CmdDenotate.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5C4998F2366D4AA5839D3E14 /* ViewTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ED237561FD8463F9C36E32B /* ViewTask.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5D1197F2043A40EA82706C16 /* Readline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BD74D8518BE4BD2817C171E /* Readline.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		601A93B7E30D4C158546C997 /* DOM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFA4DD65DDBE4C55A2EF5DC9 /* DOM.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		60BE2982C80A44578C4B15B7 /* TransportSSH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B383F55873EB42F69F0D288E /* TransportSSH.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		632FDF661915DD0F00930FCE /* Task.h in Headers */ = {isa = PBXBuildFile; fileRef = 457CB82A4A0746FE89AE3275 /* Task.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF671915DD2300930FCE /* A3.h in Headers */ = {isa = PBXBuildFile; fileRef = BD303015C33D4E8CB056FBC4 /* A3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF681915DD2300930FCE /* Arg.h in Headers */ = {isa = PBXBuildFile; fileRef = D6636F2802244D6A8EDC0B96 /* Arg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF691915DD2300930FCE /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED08DF1FD1E45D8B047C3BD /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF6A1915DD2300930FCE /* Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B34870AFE6041CC89D578D7 /* Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF6B1915DD2300930FCE /* Context.h in Headers */ = {isa = PBXBuildFile; fileRef = C8329923E759462FB0DB44D3 /* Context.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF6C1915DD2300930FCE /* DOM.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FCA9D1A6C04FEDBBC86E91 /* DOM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF6D1915DD2300930FCE /* Date.h in Headers */ = {isa = PBXBuildFile; fileRef = 125F0DA4CC5B446E83E550D7 /* Date.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF6E1915DD2300930FCE /* Directory.h in Headers */ = {isa = PBXBuildFile; fileRef = 188581BEF2994F14A28ED936 /* Directory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF6F1915DD2300930FCE /* Duration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F91DAAC8CDC44EBA3230356 /* Duration.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF701915DD2300930FCE /* E9.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBD5D1DABDC46959ACC49F1 /* E9.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF711915DD2300930FCE /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AD5D2C214C4EB3BE72C451 /* File.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF721915DD2300930FCE /* Hooks.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD7B40BD52541CE83E7857A /* Hooks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF731915DD2300930FCE /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B2019C96C24322A3599956 /* JSON.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF741915DD2300930FCE /* Msg.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA39C2740624D30BF3AECC0 /* Msg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF751915DD2300930FCE /* Nibbler.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D9CC7987B64141AD4AB718 /* Nibbler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF761915DD2300930FCE /* Path.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7D2561C6E9465DB6D7E005 /* Path.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF771915DD2300930FCE /* RX.h in Headers */ = {isa = PBXBuildFile; fileRef = 2820B05D34C842B38E6B22EC /* RX.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF781915DD2300930FCE /* TDB2.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FA514E98C74B82BEDCA20C /* TDB2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF791915DD2300930FCE /* TLSClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F9EF4514C7460EB10EB4D2 /* TLSClient.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF7A1915DD2300930FCE /* Taskmod.h in Headers */ = {isa = PBXBuildFile; fileRef = D22CBE52C70245E3ADFFD11B /* Taskmod.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF7B1915DD2300930FCE /* Timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F9881E3BDD4F2A8B7F1137 /* Timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF7C1915DD2300930FCE /* Transport.h in Headers */ = {isa = PBXBuildFile; fileRef = 080AFCA1BCF849B2A8C1D6D7 /* Transport.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF7D1915DD2300930FCE /* TransportCurl.h in Headers */ = {isa = PBXBuildFile; fileRef = 344CDADC008D49159182081F /* TransportCurl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF7E1915DD2300930FCE /* TransportRSYNC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B259C30C43F4EA384BBEE43 /* TransportRSYNC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF7F1915DD2300930FCE /* TransportSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = B2232A0E83BB4F469C4F1D2B /* TransportSSH.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF801915DD2300930FCE /* TransportShell.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DBAF82B7F04F318D8C5581 /* TransportShell.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF811915DD2300930FCE /* Uri.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FAEB852220942B79EFD2081 /* Uri.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF821915DD2300930FCE /* ViewTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 08074FD9EC1F4ACBA9C221F1 /* ViewTask.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF831915DD2300930FCE /* ViewText.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D913CF1A564904932008B0 /* ViewText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDF841915DD2300930FCE /* i18n.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED0373C9F70436080BFABBF /* i18n.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF851915DD2300930FCE /* text.h in Headers */ = {isa = PBXBuildFile; fileRef = C75744BA724F4FF3B6D44817 /* text.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF861915DD2300930FCE /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EEC3B0E05924B2684FE0D76 /* utf8.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF871915DD2300930FCE /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAF28499E2A4648A972A127 /* util.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF891915DD5F00930FCE /* CmdAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC74577E323436B8E7972D6 /* CmdAdd.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF8A1915DD5F00930FCE /* CmdAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B0725E2FEB4ADAB3CF3B82 /* CmdAliases.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF8B1915DD5F00930FCE /* CmdAnnotate.h in Headers */ = {isa = PBXBuildFile; fileRef = D946EDDDE44341D69859EC7E /* CmdAnnotate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF8C1915DD5F00930FCE /* CmdAppend.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4A0D40E9174D1AB3242305 /* CmdAppend.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF8D1915DD5F00930FCE /* CmdBurndown.h in Headers */ = {isa = PBXBuildFile; fileRef = B4794D1850044E7A921FEF17 /* CmdBurndown.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF8E1915DD5F00930FCE /* CmdCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EF5E2DE9EA414A90A0BC79 /* CmdCalendar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF8F1915DD5F00930FCE /* CmdColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEFAB5AF5494D3A8490636A /* CmdColor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF901915DD5F00930FCE /* CmdColumns.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC2BFBD43454BB08F63EC58 /* CmdColumns.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF911915DD5F00930FCE /* CmdCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC10213DBF44A4DAE8EF12B /* CmdCommands.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF921915DD5F00930FCE /* CmdConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B81E2F375E94C58BE7C3902 /* CmdConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF931915DD5F00930FCE /* CmdCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 8868ED166C8048F8B49634DC /* CmdCount.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF941915DD5F00930FCE /* CmdCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A1B1FCBAE44873A1BBC330 /* CmdCustom.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF951915DD5F00930FCE /* CmdDelete.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F79B2FBACDC493D90B8253E /* CmdDelete.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF961915DD5F00930FCE /* CmdDenotate.h in Headers */ = {isa = PBXBuildFile; fileRef = A07BC476C8EF492F9A05979D /* CmdDenotate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF971915DD5F00930FCE /* CmdDiagnostics.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D255390F504376A5352F0E /* CmdDiagnostics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF981915DD5F00930FCE /* CmdDone.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0BA4886DF44776A2C6571E /* CmdDone.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF991915DD5F00930FCE /* CmdDuplicate.h in Headers */ = {isa = PBXBuildFile; fileRef = B52AD844AACC44CEB99A0A13 /* CmdDuplicate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF9A1915DD5F00930FCE /* CmdEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = F11F6A6257414DC386A699DD /* CmdEdit.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF9B1915DD5F00930FCE /* CmdExec.h in Headers */ = {isa = PBXBuildFile; fileRef = B664DC6E894B464A9466951E /* CmdExec.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF9C1915DD5F00930FCE /* CmdExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D7FE3796DB4F0782EB4E27 /* CmdExport.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF9D1915DD5F00930FCE /* CmdGet.h in Headers */ = {isa = PBXBuildFile; fileRef = B97D93191F124D2795B8A614 /* CmdGet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF9E1915DD5F00930FCE /* CmdHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9EE02F06394B3A8CCBF65F /* CmdHelp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDF9F1915DD5F00930FCE /* CmdHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A71A354B5DF4EDDBE9544D1 /* CmdHistory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA01915DD5F00930FCE /* CmdIDs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB0A3B9CAA14020AD6BB4A6 /* CmdIDs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA11915DD5F00930FCE /* CmdImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 33471D399F034874B95539AF /* CmdImport.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA21915DD5F00930FCE /* CmdInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3586B726904D81918CE3B7 /* CmdInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA31915DD5F00930FCE /* CmdLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F768D0579942B382722F0D /* CmdLog.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA41915DD5F00930FCE /* CmdLogo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B71A1F9BDF343DA979F8AFE /* CmdLogo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA51915DD5F00930FCE /* CmdMerge.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FD6BE74B3B4400A184E171 /* CmdMerge.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA61915DD5F00930FCE /* CmdModify.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8FFCD90FA549E8AFA22F75 /* CmdModify.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA71915DD5F00930FCE /* CmdPrepend.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F50BCDEC6F47EA88E0A384 /* CmdPrepend.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA81915DD6000930FCE /* CmdProjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 20017D1FBBA74D769744DC3C /* CmdProjects.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFA91915DD6000930FCE /* CmdPull.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C60F55CE19B4912B3F336C2 /* CmdPull.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFAA1915DD6000930FCE /* CmdPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 8001E70F5F2A4D2BA95E3330 /* CmdPush.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFAB1915DD6000930FCE /* CmdReports.h in Headers */ = {isa = PBXBuildFile; fileRef = 61685CDAB3F7428C92CF192E /* CmdReports.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFAC1915DD6000930FCE /* CmdShow.h in Headers */ = {isa = PBXBuildFile; fileRef = B720F9CB18F74830BCE52AF6 /* CmdShow.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFAD1915DD6000930FCE /* CmdStart.h in Headers */ = {isa = PBXBuildFile; fileRef = 37EC645355B54B6ABDA72E10 /* CmdStart.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFAE1915DD6000930FCE /* CmdStats.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CB10ED050B410A9F87294E /* CmdStats.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFAF1915DD6000930FCE /* CmdStop.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C19D1B53084DA9B0598166 /* CmdStop.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB01915DD6000930FCE /* CmdSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C8432B16044262B227EA19 /* CmdSummary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB11915DD6000930FCE /* CmdSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F7B1C0043D4ECBA4ACF5DE /* CmdSync.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB21915DD6000930FCE /* CmdTags.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7820DAC7A94966B3CC52A3 /* CmdTags.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB31915DD6000930FCE /* CmdTimesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 770A3BD61D824025BF9FC806 /* CmdTimesheet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB41915DD6000930FCE /* CmdUDAs.h in Headers */ = {isa = PBXBuildFile; fileRef = D6533591694D419CA8D1B70E /* CmdUDAs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB51915DD6000930FCE /* CmdUndo.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E2602AD95E4F99BD2671BB /* CmdUndo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB61915DD6000930FCE /* CmdUrgency.h in Headers */ = {isa = PBXBuildFile; fileRef = E545FD1C6B8C4037A0B9E49F /* CmdUrgency.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB71915DD6000930FCE /* CmdVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F041E8A75B84A5DB59E2FED /* CmdVersion.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFB81915DD6000930FCE /* Command.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BB79E2B2374759BD456D2B /* Command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632FDFBA1915DD8800930FCE /* ColDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 930EF76C4F6D4CF0A2481D0B /* ColDate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFBB1915DD8800930FCE /* ColDepends.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D35777388D4FC9917E63BB /* ColDepends.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFBC1915DD8800930FCE /* ColDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7285756AF44883BE59426C /* ColDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFBD1915DD8800930FCE /* ColDue.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAD83612D904033854F8493 /* ColDue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFBE1915DD8800930FCE /* ColEnd.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DDBA2A7E864909AF793089 /* ColEnd.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFBF1915DD8800930FCE /* ColEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DBD65640014361ABA8F908 /* ColEntry.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC01915DD8800930FCE /* ColID.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCE176C02B3408089494E93 /* ColID.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC11915DD8900930FCE /* ColIMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 359D3F31774E4772B0755247 /* ColIMask.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC21915DD8900930FCE /* ColMask.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E2105BF9614C81A05A8D45 /* ColMask.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC31915DD8900930FCE /* ColModified.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAB645945EE4351A603BC6D /* ColModified.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC41915DD8900930FCE /* ColParent.h in Headers */ = {isa = PBXBuildFile; fileRef = C643B7A3FF894862B34AB365 /* ColParent.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC51915DD8900930FCE /* ColPriority.h in Headers */ = {isa = PBXBuildFile; fileRef = 911ABC5A4B4147C7A35341DD /* ColPriority.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC61915DD8900930FCE /* ColProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6086BE182AC149B296668BB3 /* ColProject.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC71915DD8900930FCE /* ColRecur.h in Headers */ = {isa = PBXBuildFile; fileRef = E800B918F0AD4F15871CEF58 /* ColRecur.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC81915DD8900930FCE /* ColScheduled.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E87A2DA7484A89A8533E3C /* ColScheduled.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFC91915DD8900930FCE /* ColStart.h in Headers */ = {isa = PBXBuildFile; fileRef = 202D007708D943E3B3CA548C /* ColStart.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFCA1915DD8900930FCE /* ColStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 193A3A66532C425880D13679 /* ColStatus.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFCB1915DD8900930FCE /* ColString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6513F3A9694A97907FF4FF /* ColString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFCC1915DD8900930FCE /* ColTags.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D7575F53A94D81B40E73EE /* ColTags.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFCD1915DD8900930FCE /* ColUDA.h in Headers */ = {isa = PBXBuildFile; fileRef = CA837A823E484007A24EF982 /* ColUDA.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFCE1915DD8900930FCE /* ColUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 8842F59F37C64950A87F2D06 /* ColUUID.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFCF1915DD8900930FCE /* ColUntil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF54FC6C4BF4E42BA699ACC /* ColUntil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFD01915DD8900930FCE /* ColUrgency.h in Headers */ = {isa = PBXBuildFile; fileRef = 6907969204E8402C8E8A63C7 /* ColUrgency.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFD11915DD8900930FCE /* ColWait.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AAF6CFFDFB4BCD91A3D13C /* ColWait.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		632FDFD21915DD8900930FCE /* Column.h in Headers */ = {isa = PBXBuildFile; fileRef = 5734AE673B674D9C8B17F2CC /* Column.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66AA6CA7ED204B3DA10BD180 /* CmdAliases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D5FC8C1EE243AA93FCC12E /* CmdAliases.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		67DBEAA781684282A9A1ACA4 /* ColUntil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA07C45FDA445D6A49647E4 /* ColUntil.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		699EBC2585E549C6B54AB926 /* ColDepends.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1DC30084DB14558BB7E4ED5 /* ColDepends.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6B62D1864C014BC498CC03D0 /* CmdDone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B815956CAB84EB6BE014C37 /* CmdDone.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6C0645910933447D8D7A7549 /* CmdUndo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED54C91D6EE64CB7AC9087F7 /* CmdUndo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7607DDBC5B1D4C55B5E1B9E5 /* CmdExec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 456F9BBC66364749A4862978 /* CmdExec.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7709D6CB1ED84C8BBECAC2A4 /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68B1B26F0C3B448C9A84B356 /* sort.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		78ED131521EF4399BF8D3A6C /* CmdBurndown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56F6C4517596477B9DA3EA4E /* CmdBurndown.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7D330D3212ED49078ACEE0F6 /* CmdCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE0417D12D433DBA6DEDAA /* CmdCommands.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7D8AD2D8EB1E408FA14B0BD5 /* text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A85571275491B8E579822 /* text.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7FF2AD2D2DAE4600BA69EFB1 /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAED56A701D74E75BC91D75C /* Column.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		80BE319C24DE4D8AA6A35107 /* Transport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91CD53443834966AD9400A5 /* Transport.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		835F5DA857D341D6A706DD6D /* CmdProjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C464361B947849806D8B9 /* CmdProjects.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		85BF5753B04B4F3A86D5FE0E /* Duration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDD22BF93FB84BAF913D9901 /* Duration.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		890B7F0378D44A778B41D746 /* JSON.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCCE29AB1DD44D35834B26D5 /* JSON.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A84949617624DEEB5D82FF3 /* Nibbler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4E74CDF7DEA4D82A6998553 /* Nibbler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8B1E87D047254611859E3E26 /* CmdAdd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 795B7A6781F547A098B68E9F /* CmdAdd.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8B379A453FB641BABED29F52 /* ColStatus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E229195A60144B7935E2B66 /* ColStatus.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8C5C41275659486A91A67717 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D213053C60AD4CD8B5351E7D /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		90A3F2014C914624B60C2696 /* TransportRSYNC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50CE999D9C0F400CB4A6D141 /* TransportRSYNC.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		94794A8B9D2840F197DB8903 /* Uri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9226CA2FCE4569AA9E3548 /* Uri.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		94C5F1801AC5414A9A5F1572 /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D465035623B4969AE2955D5 /* Context.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		94E3C7EC8B73454496E4A155 /* Hooks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C5CE6E6227424EA9B1EE1B /* Hooks.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		95051202FD33443D955B6967 /* CmdEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA5F4CE1109472FBAE4D613 /* CmdEdit.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9978882393E941DFA6C96F3F /* ColParent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63028AD7768243B8AC257575 /* ColParent.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9A1ED5001035443B8839A70E /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76C559C4010B494AB4B9CADE /* Date.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9A2EB169E62F4EBEA99C74A6 /* CmdGet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86DFDE38B8FB4FA69B3E9D76 /* CmdGet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9C4640B675C74EE194BE83C6 /* CmdCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C6F33C03D74435B3BF6AA6 /* CmdCalendar.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9C8C3686C286486FA98472AF /* CmdInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61A55D882AAC498A9F004F53 /* CmdInfo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9F1D6013D6804E8CABF49A16 /* Arg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC450BCAEF194D418E744908 /* Arg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A35B3F541388400FAA2E6D81 /* CmdCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECEB92244DCD481D85D357A6 /* CmdCustom.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A62D2FE9A03A4CBF9E37B169 /* CmdSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D74B8DF6414CAD97742AF0 /* CmdSync.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A69F9E638AFA4DA9A8F82159 /* ColUDA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E84393BF4B2E4DD7A19F4C31 /* ColUDA.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A92EC6E2666342F691F6099D /* Taskmod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28A4F28955974877981C9A5E /* Taskmod.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A9333ABB4FFF4483848BE5F7 /* CmdHistory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77476BB4E71D4E7E994516F7 /* CmdHistory.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AAAE9C7EBC584D96B3630BEC /* TransportShell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24611FE712414892BD389CB3 /* TransportShell.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AD49BE1A91FD4AD68A7052F7 /* CmdAnnotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94D048E4904C491B8BAA3C1C /* CmdAnnotate.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		ADD1901D80834B1482E032EF /* ColModified.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E89773DE548EE95CBB241 /* ColModified.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AE98AF7E06944DFC9D40EE13 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 962278DEB837447A96A24029 /* util.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B629EF4EECC44E88A7844FE4 /* CmdUDAs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F1A2D916648C492AA1F80 /* CmdUDAs.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B70B7519937843038F50FE5C /* Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F026DED8301849EAAEFC965F /* Path.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B777922C5F3248AB8294B3E7 /* feedback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AD0DD21C23406FB651B457 /* feedback.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B8327D83230A46799789E789 /* CmdModify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BA658B19B514A329803EA58 /* CmdModify.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BB9D3BEDD8BE413680544128 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E711EC80C14EBBA4C234E8 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C08BED1C31EE4D2ABC9172AC /* ColTags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC65A4503FC3409AA4F09384 /* ColTags.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C7656B4A4C884F349B5DD47D /* CmdLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B5615994F3542E79FB4D5FD /* CmdLog.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C77651F01AE24F439B321C39 /* ColUUID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E9468037414A93ACBF147F /* ColUUID.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C7983363015A4AA7AFBDE292 /* CmdIDs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A9E6B6060A448A9EF27E91 /* CmdIDs.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C847D35B782843EAB56B83CD /* CmdDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F778CBF7892741B8AE2AE0BE /* CmdDuplicate.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C98B059A25A54E8C8434387C /* CmdDelete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84564351C0AE4B4B9E2DBC58 /* CmdDelete.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C9AF7D542F034CA195490E74 /* A3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E69CC16620C4697A827E52F /* A3.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CCFEAF1151DF40ADA1D87A07 /* TLSClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFF14E332A664FEE8EDD9E39 /* TLSClient.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CD8FD8E2CDCE4D64AF62998A /* ColPriority.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4310400749814C95AD0C6DF5 /* ColPriority.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D17FD681D6094681A3DDEB93 /* RX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D31A13369D48748C33048A /* RX.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D2986932CF9E4A598529860C /* ColIMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22E63A889F484E75B751D07F /* ColIMask.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D327773E88C14C4AAEAAE674 /* ColProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91BB3B27CE846C9BF3C9815 /* ColProject.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D394ED0E31794A51BC4BDA3B /* CmdReports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D2980C9A14E0B8BC94CE1 /* CmdReports.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D7400D17FC1D4F51BE0A05C1 /* CmdColumns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ADF7657B49B49D3A4C63424 /* CmdColumns.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D803B1CCDE224FFA878E95E9 /* CmdExport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84B78D422B4147B7BC1A5B55 /* CmdExport.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DAEB9EE29E46462892D8B58B /* ColEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB69FF8C1EBB441484EE2BF8 /* ColEntry.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DB6E11888D9F437EA8D343CC /* E9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E9D81ED7CE46E1BBAD4C0B /* E9.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DBBB8C81F0B54729B801AE66 /* CmdUrgency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCABE54460D44CD1A1567521 /* CmdUrgency.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E7267BB84C36440ABE431789 /* ColDue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 868ADDC8796C423FBFA60FE2 /* ColDue.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E80F3659348E4FE28DAD1DF3 /* legacy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3B39C3B65834E96BFEE7251 /* legacy.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EBC6726253AC42F8A457D409 /* CmdColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F4A6FCFE14C6E8AD0BF0E /* CmdColor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EEEC837814364C058D4D3B58 /* CmdVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09D05232A2BD4ED9B81221E3 /* CmdVersion.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F0EE9958B5634EABBA226738 /* CmdHelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA5132FB6C0F4385A230C733 /* CmdHelp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F2D0B5CE14C74D00B0C876FD /* ViewText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA24579F8DC412E812E14EF /* ViewText.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F33EF13BBD4843D095A4A6EF /* CmdTimesheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 637F0B3AA1104EE5A651977C /* CmdTimesheet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F76999B8E49244D9968BBEB7 /* CmdDiagnostics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3A2BD17BF5E461E9AC1F5B9 /* CmdDiagnostics.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F77023AF168C49C7A542374B /* utf8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D4B16099A44DEFB68062D1 /* utf8.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FC3745442AF84B6E8B46FE1E /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70768385105C434AA257F944 /* Command.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FD255A57A37D40A9920E109E /* CmdAppend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23FBC4F66C4F4DE9BDDD0CBA /* CmdAppend.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A4335A4C804F44A5DF2408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A237BF8D974D49D38CA5DE8C;
+			remoteInfo = ALL_BUILD;
+		};
+		0880C736B42B49988DD3F231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2224D4B1BDF4F65A1A93D1C;
+			remoteInfo = tasksh_executable;
+		};
+		0C6675BEC46C4AB380DF4300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7CB879EE034178BFF56725;
+			remoteInfo = commands;
+		};
+		113E968203E54EB4AEC6F16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182DFC3E54A4E4982A5E789;
+			remoteInfo = ZERO_CHECK;
+		};
+		15602ED0A744497BB5B916BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CCA993A45A4FB29ACE4462;
+			remoteInfo = columns;
+		};
+		158CB60F90E341ABB9879F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182DFC3E54A4E4982A5E789;
+			remoteInfo = ZERO_CHECK;
+		};
+		261A563B285A447A8092822C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 799E636E3D364F54B53E8251;
+			remoteInfo = task;
+		};
+		48203977730A4DB4AAB9754E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AD2E1C5B9E499886DF73AB;
+			remoteInfo = task_executable;
+		};
+		4D70796E65C842178AA020B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7CB879EE034178BFF56725;
+			remoteInfo = commands;
+		};
+		5A78FC57DDF342E5AF89EFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12F9F0BFCF845F7ADD149CC;
+			remoteInfo = tasksh;
+		};
+		78632F8703824075A2631CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 799E636E3D364F54B53E8251;
+			remoteInfo = task;
+		};
+		7A48C70060A94737B4B6C892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CCA993A45A4FB29ACE4462;
+			remoteInfo = columns;
+		};
+		8EC61F7ED3574CAC988CB846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7CB879EE034178BFF56725;
+			remoteInfo = commands;
+		};
+		93A13189CD824DFA94D704CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12F9F0BFCF845F7ADD149CC;
+			remoteInfo = tasksh;
+		};
+		ABA36F3DD54047B68B91B321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182DFC3E54A4E4982A5E789;
+			remoteInfo = ZERO_CHECK;
+		};
+		B3C35945BB024F02B685997F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 799E636E3D364F54B53E8251;
+			remoteInfo = task;
+		};
+		BA13C68D6BDA4AF09CC448D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182DFC3E54A4E4982A5E789;
+			remoteInfo = ZERO_CHECK;
+		};
+		CCDE5CA3991F4ED0941D1896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182DFC3E54A4E4982A5E789;
+			remoteInfo = ZERO_CHECK;
+		};
+		D6B261CF5F9C402DA0BB1AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182DFC3E54A4E4982A5E789;
+			remoteInfo = ZERO_CHECK;
+		};
+		D8A744216F1F4F9295B19B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CCA993A45A4FB29ACE4462;
+			remoteInfo = columns;
+		};
+		E54646E0E05542B096C4300F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182DFC3E54A4E4982A5E789;
+			remoteInfo = ZERO_CHECK;
+		};
+		E5CFEB73BC6D4554B297E0DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4AE03C8484746AC104BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A237BF8D974D49D38CA5DE8C;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0096034B080948B7A36B2B87 /* CmdStop.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdStop.cpp; path = src/commands/CmdStop.cpp; sourceTree = SOURCE_ROOT; };
+		020A3803A9A1491980E6AB13 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/commands/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		08074FD9EC1F4ACBA9C221F1 /* ViewTask.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ViewTask.h; path = src/ViewTask.h; sourceTree = SOURCE_ROOT; };
+		080AFCA1BCF849B2A8C1D6D7 /* Transport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Transport.h; path = src/Transport.h; sourceTree = SOURCE_ROOT; };
+		0872F5B2D70A41929F489D45 /* CmdPush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdPush.cpp; path = src/commands/CmdPush.cpp; sourceTree = SOURCE_ROOT; };
+		09D05232A2BD4ED9B81221E3 /* CmdVersion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdVersion.cpp; path = src/commands/CmdVersion.cpp; sourceTree = SOURCE_ROOT; };
+		0ACE0417D12D433DBA6DEDAA /* CmdCommands.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdCommands.cpp; path = src/commands/CmdCommands.cpp; sourceTree = SOURCE_ROOT; };
+		0B393B30FABF4ED8B785E767 /* ColDate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColDate.cpp; path = src/columns/ColDate.cpp; sourceTree = SOURCE_ROOT; };
+		0B5615994F3542E79FB4D5FD /* CmdLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdLog.cpp; path = src/commands/CmdLog.cpp; sourceTree = SOURCE_ROOT; };
+		0C6513F3A9694A97907FF4FF /* ColString.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColString.h; path = src/columns/ColString.h; sourceTree = SOURCE_ROOT; };
+		0DEFAB5AF5494D3A8490636A /* CmdColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdColor.h; path = src/commands/CmdColor.h; sourceTree = SOURCE_ROOT; };
+		0F041E8A75B84A5DB59E2FED /* CmdVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdVersion.h; path = src/commands/CmdVersion.h; sourceTree = SOURCE_ROOT; };
+		0F79B2FBACDC493D90B8253E /* CmdDelete.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdDelete.h; path = src/commands/CmdDelete.h; sourceTree = SOURCE_ROOT; };
+		0FA39C2740624D30BF3AECC0 /* Msg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Msg.h; path = src/Msg.h; sourceTree = SOURCE_ROOT; };
+		121C35D91BFF47428B51056E /* wcwidth6.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wcwidth6.cpp; path = src/wcwidth6.cpp; sourceTree = SOURCE_ROOT; };
+		125F0DA4CC5B446E83E550D7 /* Date.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Date.h; path = src/Date.h; sourceTree = SOURCE_ROOT; };
+		14AD5D2C214C4EB3BE72C451 /* File.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = File.h; path = src/File.h; sourceTree = SOURCE_ROOT; };
+		14E711EC80C14EBBA4C234E8 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		16A9E6B6060A448A9EF27E91 /* CmdIDs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdIDs.cpp; path = src/commands/CmdIDs.cpp; sourceTree = SOURCE_ROOT; };
+		16FD6BE74B3B4400A184E171 /* CmdMerge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdMerge.h; path = src/commands/CmdMerge.h; sourceTree = SOURCE_ROOT; };
+		188581BEF2994F14A28ED936 /* Directory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Directory.h; path = src/Directory.h; sourceTree = SOURCE_ROOT; };
+		18F50BCDEC6F47EA88E0A384 /* CmdPrepend.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdPrepend.h; path = src/commands/CmdPrepend.h; sourceTree = SOURCE_ROOT; };
+		193A3A66532C425880D13679 /* ColStatus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColStatus.h; path = src/columns/ColStatus.h; sourceTree = SOURCE_ROOT; };
+		1B815956CAB84EB6BE014C37 /* CmdDone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdDone.cpp; path = src/commands/CmdDone.cpp; sourceTree = SOURCE_ROOT; };
+		1D5B177112984C3B9214C4BA /* CmdSummary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdSummary.cpp; path = src/commands/CmdSummary.cpp; sourceTree = SOURCE_ROOT; };
+		1E229195A60144B7935E2B66 /* ColStatus.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColStatus.cpp; path = src/columns/ColStatus.cpp; sourceTree = SOURCE_ROOT; };
+		1E69CC16620C4697A827E52F /* A3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = A3.cpp; path = src/A3.cpp; sourceTree = SOURCE_ROOT; };
+		1EAB645945EE4351A603BC6D /* ColModified.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColModified.h; path = src/columns/ColModified.h; sourceTree = SOURCE_ROOT; };
+		1FB0A3B9CAA14020AD6BB4A6 /* CmdIDs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdIDs.h; path = src/commands/CmdIDs.h; sourceTree = SOURCE_ROOT; };
+		20017D1FBBA74D769744DC3C /* CmdProjects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdProjects.h; path = src/commands/CmdProjects.h; sourceTree = SOURCE_ROOT; };
+		202D007708D943E3B3CA548C /* ColStart.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColStart.h; path = src/columns/ColStart.h; sourceTree = SOURCE_ROOT; };
+		22E63A889F484E75B751D07F /* ColIMask.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColIMask.cpp; path = src/columns/ColIMask.cpp; sourceTree = SOURCE_ROOT; };
+		23FBC4F66C4F4DE9BDDD0CBA /* CmdAppend.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdAppend.cpp; path = src/commands/CmdAppend.cpp; sourceTree = SOURCE_ROOT; };
+		24611FE712414892BD389CB3 /* TransportShell.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TransportShell.cpp; path = src/TransportShell.cpp; sourceTree = SOURCE_ROOT; };
+		2820B05D34C842B38E6B22EC /* RX.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RX.h; path = src/RX.h; sourceTree = SOURCE_ROOT; };
+		28A4F28955974877981C9A5E /* Taskmod.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Taskmod.cpp; path = src/Taskmod.cpp; sourceTree = SOURCE_ROOT; };
+		2B5F1A2D916648C492AA1F80 /* CmdUDAs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdUDAs.cpp; path = src/commands/CmdUDAs.cpp; sourceTree = SOURCE_ROOT; };
+		2B7820DAC7A94966B3CC52A3 /* CmdTags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdTags.h; path = src/commands/CmdTags.h; sourceTree = SOURCE_ROOT; };
+		2C5548FFAA8843368636A6E9 /* ColWait.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColWait.cpp; path = src/columns/ColWait.cpp; sourceTree = SOURCE_ROOT; };
+		2DAF28499E2A4648A972A127 /* util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = util.h; path = src/util.h; sourceTree = SOURCE_ROOT; };
+		2DCE176C02B3408089494E93 /* ColID.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColID.h; path = src/columns/ColID.h; sourceTree = SOURCE_ROOT; };
+		2ED237561FD8463F9C36E32B /* ViewTask.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ViewTask.cpp; path = src/ViewTask.cpp; sourceTree = SOURCE_ROOT; };
+		2EE8BC1E06024092B51E0BA1 /* ColEnd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColEnd.cpp; path = src/columns/ColEnd.cpp; sourceTree = SOURCE_ROOT; };
+		2F7285756AF44883BE59426C /* ColDescription.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColDescription.h; path = src/columns/ColDescription.h; sourceTree = SOURCE_ROOT; };
+		333FBACB8BAE4BBF9DCB30A3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/shell/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		33471D399F034874B95539AF /* CmdImport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdImport.h; path = src/commands/CmdImport.h; sourceTree = SOURCE_ROOT; };
+		344CDADC008D49159182081F /* TransportCurl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TransportCurl.h; path = src/TransportCurl.h; sourceTree = SOURCE_ROOT; };
+		359D3F31774E4772B0755247 /* ColIMask.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColIMask.h; path = src/columns/ColIMask.h; sourceTree = SOURCE_ROOT; };
+		3768BB464EBF4DC883C67CAE /* Color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Color.cpp; path = src/Color.cpp; sourceTree = SOURCE_ROOT; };
+		37EC645355B54B6ABDA72E10 /* CmdStart.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdStart.h; path = src/commands/CmdStart.h; sourceTree = SOURCE_ROOT; };
+		3AA101838E34437B9236888E /* CmdDenotate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdDenotate.cpp; path = src/commands/CmdDenotate.cpp; sourceTree = SOURCE_ROOT; };
+		3B05E71FA61D4849A784195F /* File.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = File.cpp; path = src/File.cpp; sourceTree = SOURCE_ROOT; };
+		3BA24579F8DC412E812E14EF /* ViewText.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ViewText.cpp; path = src/ViewText.cpp; sourceTree = SOURCE_ROOT; };
+		3C60F55CE19B4912B3F336C2 /* CmdPull.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdPull.h; path = src/commands/CmdPull.h; sourceTree = SOURCE_ROOT; };
+		3F7F4A6FCFE14C6E8AD0BF0E /* CmdColor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdColor.cpp; path = src/commands/CmdColor.cpp; sourceTree = SOURCE_ROOT; };
+		3FBD5D1DABDC46959ACC49F1 /* E9.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = E9.h; path = src/E9.h; sourceTree = SOURCE_ROOT; };
+		4310400749814C95AD0C6DF5 /* ColPriority.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColPriority.cpp; path = src/columns/ColPriority.cpp; sourceTree = SOURCE_ROOT; };
+		43C19D1B53084DA9B0598166 /* CmdStop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdStop.h; path = src/commands/CmdStop.h; sourceTree = SOURCE_ROOT; };
+		44929950F88640D7A1E72599 /* libtask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtask.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		455FB7A37D44449089C11913 /* ColRecur.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColRecur.cpp; path = src/columns/ColRecur.cpp; sourceTree = SOURCE_ROOT; };
+		456F9BBC66364749A4862978 /* CmdExec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdExec.cpp; path = src/commands/CmdExec.cpp; sourceTree = SOURCE_ROOT; };
+		457BD2AC16FF440ABC9205DB /* Timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Timer.cpp; path = src/Timer.cpp; sourceTree = SOURCE_ROOT; };
+		457CB82A4A0746FE89AE3275 /* Task.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Task.h; path = src/Task.h; sourceTree = SOURCE_ROOT; };
+		4AA5F4CE1109472FBAE4D613 /* CmdEdit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdEdit.cpp; path = src/commands/CmdEdit.cpp; sourceTree = SOURCE_ROOT; };
+		4B29AF59196B4D5D856F7436 /* dependency.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dependency.cpp; path = src/dependency.cpp; sourceTree = SOURCE_ROOT; };
+		4B7D2561C6E9465DB6D7E005 /* Path.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Path.h; path = src/Path.h; sourceTree = SOURCE_ROOT; };
+		4BA658B19B514A329803EA58 /* CmdModify.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdModify.cpp; path = src/commands/CmdModify.cpp; sourceTree = SOURCE_ROOT; };
+		4E0D2980C9A14E0B8BC94CE1 /* CmdReports.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdReports.cpp; path = src/commands/CmdReports.cpp; sourceTree = SOURCE_ROOT; };
+		50CE999D9C0F400CB4A6D141 /* TransportRSYNC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TransportRSYNC.cpp; path = src/TransportRSYNC.cpp; sourceTree = SOURCE_ROOT; };
+		51E9468037414A93ACBF147F /* ColUUID.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColUUID.cpp; path = src/columns/ColUUID.cpp; sourceTree = SOURCE_ROOT; };
+		53C479B619D84CF597E97048 /* tasksh */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tasksh; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DBD65640014361ABA8F908 /* ColEntry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColEntry.h; path = src/columns/ColEntry.h; sourceTree = SOURCE_ROOT; };
+		55BB79E2B2374759BD456D2B /* Command.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Command.h; path = src/commands/Command.h; sourceTree = SOURCE_ROOT; };
+		56F6C4517596477B9DA3EA4E /* CmdBurndown.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdBurndown.cpp; path = src/commands/CmdBurndown.cpp; sourceTree = SOURCE_ROOT; };
+		5734AE673B674D9C8B17F2CC /* Column.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Column.h; path = src/columns/Column.h; sourceTree = SOURCE_ROOT; };
+		594D696DE3A3415C82481E9C /* Directory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Directory.cpp; path = src/Directory.cpp; sourceTree = SOURCE_ROOT; };
+		59AAF6CFFDFB4BCD91A3D13C /* ColWait.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColWait.h; path = src/columns/ColWait.h; sourceTree = SOURCE_ROOT; };
+		59C8432B16044262B227EA19 /* CmdSummary.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdSummary.h; path = src/commands/CmdSummary.h; sourceTree = SOURCE_ROOT; };
+		5B34870AFE6041CC89D578D7 /* Config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Config.h; path = src/Config.h; sourceTree = SOURCE_ROOT; };
+		5BD74D8518BE4BD2817C171E /* Readline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Readline.cpp; path = src/shell/Readline.cpp; sourceTree = SOURCE_ROOT; };
+		5BF54FC6C4BF4E42BA699ACC /* ColUntil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColUntil.h; path = src/columns/ColUntil.h; sourceTree = SOURCE_ROOT; };
+		604B7731A67449C4B9016E94 /* CmdPrepend.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdPrepend.cpp; path = src/commands/CmdPrepend.cpp; sourceTree = SOURCE_ROOT; };
+		6086BE182AC149B296668BB3 /* ColProject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColProject.h; path = src/columns/ColProject.h; sourceTree = SOURCE_ROOT; };
+		61685CDAB3F7428C92CF192E /* CmdReports.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdReports.h; path = src/commands/CmdReports.h; sourceTree = SOURCE_ROOT; };
+		61A55D882AAC498A9F004F53 /* CmdInfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdInfo.cpp; path = src/commands/CmdInfo.cpp; sourceTree = SOURCE_ROOT; };
+		61D913CF1A564904932008B0 /* ViewText.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ViewText.h; path = src/ViewText.h; sourceTree = SOURCE_ROOT; };
+		63028AD7768243B8AC257575 /* ColParent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColParent.cpp; path = src/columns/ColParent.cpp; sourceTree = SOURCE_ROOT; };
+		637F0B3AA1104EE5A651977C /* CmdTimesheet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdTimesheet.cpp; path = src/commands/CmdTimesheet.cpp; sourceTree = SOURCE_ROOT; };
+		63BB33F0132E4BCAA83594B1 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/columns/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		63D7575F53A94D81B40E73EE /* ColTags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColTags.h; path = src/columns/ColTags.h; sourceTree = SOURCE_ROOT; };
+		65BA0AFD80314D0EAD4403EE /* task */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = task; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E0E0D7996140269EAE3CB2 /* CmdCount.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdCount.cpp; path = src/commands/CmdCount.cpp; sourceTree = SOURCE_ROOT; };
+		68B1B26F0C3B448C9A84B356 /* sort.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sort.cpp; path = src/sort.cpp; sourceTree = SOURCE_ROOT; };
+		6907969204E8402C8E8A63C7 /* ColUrgency.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColUrgency.h; path = src/columns/ColUrgency.h; sourceTree = SOURCE_ROOT; };
+		6EEC3B0E05924B2684FE0D76 /* utf8.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf8.h; path = src/utf8.h; sourceTree = SOURCE_ROOT; };
+		70768385105C434AA257F944 /* Command.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Command.cpp; path = src/commands/Command.cpp; sourceTree = SOURCE_ROOT; };
+		71F9EF4514C7460EB10EB4D2 /* TLSClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TLSClient.h; path = src/TLSClient.h; sourceTree = SOURCE_ROOT; };
+		76C559C4010B494AB4B9CADE /* Date.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Date.cpp; path = src/Date.cpp; sourceTree = SOURCE_ROOT; };
+		770A3BD61D824025BF9FC806 /* CmdTimesheet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdTimesheet.h; path = src/commands/CmdTimesheet.h; sourceTree = SOURCE_ROOT; };
+		77476BB4E71D4E7E994516F7 /* CmdHistory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdHistory.cpp; path = src/commands/CmdHistory.cpp; sourceTree = SOURCE_ROOT; };
+		77F9881E3BDD4F2A8B7F1137 /* Timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Timer.h; path = src/Timer.h; sourceTree = SOURCE_ROOT; };
+		795B7A6781F547A098B68E9F /* CmdAdd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdAdd.cpp; path = src/commands/CmdAdd.cpp; sourceTree = SOURCE_ROOT; };
+		7A7E89773DE548EE95CBB241 /* ColModified.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColModified.cpp; path = src/columns/ColModified.cpp; sourceTree = SOURCE_ROOT; };
+		7ADF7657B49B49D3A4C63424 /* CmdColumns.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdColumns.cpp; path = src/commands/CmdColumns.cpp; sourceTree = SOURCE_ROOT; };
+		7B71A1F9BDF343DA979F8AFE /* CmdLogo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdLogo.h; path = src/commands/CmdLogo.h; sourceTree = SOURCE_ROOT; };
+		7FAEB852220942B79EFD2081 /* Uri.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Uri.h; path = src/Uri.h; sourceTree = SOURCE_ROOT; };
+		8001E70F5F2A4D2BA95E3330 /* CmdPush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdPush.h; path = src/commands/CmdPush.h; sourceTree = SOURCE_ROOT; };
+		8249B03D7F074F1D8C940BCD /* CmdStats.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdStats.cpp; path = src/commands/CmdStats.cpp; sourceTree = SOURCE_ROOT; };
+		84564351C0AE4B4B9E2DBC58 /* CmdDelete.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdDelete.cpp; path = src/commands/CmdDelete.cpp; sourceTree = SOURCE_ROOT; };
+		84B78D422B4147B7BC1A5B55 /* CmdExport.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdExport.cpp; path = src/commands/CmdExport.cpp; sourceTree = SOURCE_ROOT; };
+		84CC4FB3D8954CB1A0B0340A /* ColScheduled.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColScheduled.cpp; path = src/columns/ColScheduled.cpp; sourceTree = SOURCE_ROOT; };
+		868ADDC8796C423FBFA60FE2 /* ColDue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColDue.cpp; path = src/columns/ColDue.cpp; sourceTree = SOURCE_ROOT; };
+		86DFDE38B8FB4FA69B3E9D76 /* CmdGet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdGet.cpp; path = src/commands/CmdGet.cpp; sourceTree = SOURCE_ROOT; };
+		87D7FE3796DB4F0782EB4E27 /* CmdExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdExport.h; path = src/commands/CmdExport.h; sourceTree = SOURCE_ROOT; };
+		8842F59F37C64950A87F2D06 /* ColUUID.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColUUID.h; path = src/columns/ColUUID.h; sourceTree = SOURCE_ROOT; };
+		8868ED166C8048F8B49634DC /* CmdCount.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdCount.h; path = src/commands/CmdCount.h; sourceTree = SOURCE_ROOT; };
+		8A71A354B5DF4EDDBE9544D1 /* CmdHistory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdHistory.h; path = src/commands/CmdHistory.h; sourceTree = SOURCE_ROOT; };
+		8B4A85571275491B8E579822 /* text.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text.cpp; path = src/text.cpp; sourceTree = SOURCE_ROOT; };
+		8B81E2F375E94C58BE7C3902 /* CmdConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdConfig.h; path = src/commands/CmdConfig.h; sourceTree = SOURCE_ROOT; };
+		8C9226CA2FCE4569AA9E3548 /* Uri.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Uri.cpp; path = src/Uri.cpp; sourceTree = SOURCE_ROOT; };
+		8D5C464361B947849806D8B9 /* CmdProjects.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdProjects.cpp; path = src/commands/CmdProjects.cpp; sourceTree = SOURCE_ROOT; };
+		8DC2BFBD43454BB08F63EC58 /* CmdColumns.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdColumns.h; path = src/commands/CmdColumns.h; sourceTree = SOURCE_ROOT; };
+		8ED0373C9F70436080BFABBF /* i18n.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = i18n.h; path = src/i18n.h; sourceTree = SOURCE_ROOT; };
+		8ED08DF1FD1E45D8B047C3BD /* Color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Color.h; path = src/Color.h; sourceTree = SOURCE_ROOT; };
+		90C6F33C03D74435B3BF6AA6 /* CmdCalendar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdCalendar.cpp; path = src/commands/CmdCalendar.cpp; sourceTree = SOURCE_ROOT; };
+		911ABC5A4B4147C7A35341DD /* ColPriority.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColPriority.h; path = src/columns/ColPriority.h; sourceTree = SOURCE_ROOT; };
+		92F768D0579942B382722F0D /* CmdLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdLog.h; path = src/commands/CmdLog.h; sourceTree = SOURCE_ROOT; };
+		930EF76C4F6D4CF0A2481D0B /* ColDate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColDate.h; path = src/columns/ColDate.h; sourceTree = SOURCE_ROOT; };
+		93EDCD12BBE74B2C8A8447E3 /* recur.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = recur.cpp; path = src/recur.cpp; sourceTree = SOURCE_ROOT; };
+		94A1B1FCBAE44873A1BBC330 /* CmdCustom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdCustom.h; path = src/commands/CmdCustom.h; sourceTree = SOURCE_ROOT; };
+		94D048E4904C491B8BAA3C1C /* CmdAnnotate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdAnnotate.cpp; path = src/commands/CmdAnnotate.cpp; sourceTree = SOURCE_ROOT; };
+		962278DEB837447A96A24029 /* util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		978C1E6364D44A42934F3672 /* CmdMerge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdMerge.cpp; path = src/commands/CmdMerge.cpp; sourceTree = SOURCE_ROOT; };
+		97DDBA2A7E864909AF793089 /* ColEnd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColEnd.h; path = src/columns/ColEnd.h; sourceTree = SOURCE_ROOT; };
+		99F7B1C0043D4ECBA4ACF5DE /* CmdSync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdSync.h; path = src/commands/CmdSync.h; sourceTree = SOURCE_ROOT; };
+		9A0BA4886DF44776A2C6571E /* CmdDone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdDone.h; path = src/commands/CmdDone.h; sourceTree = SOURCE_ROOT; };
+		9B259C30C43F4EA384BBEE43 /* TransportRSYNC.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TransportRSYNC.h; path = src/TransportRSYNC.h; sourceTree = SOURCE_ROOT; };
+		9CBEB7BC5F4B4B17998D757F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9D465035623B4969AE2955D5 /* Context.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Context.cpp; path = src/Context.cpp; sourceTree = SOURCE_ROOT; };
+		9F91DAAC8CDC44EBA3230356 /* Duration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Duration.h; path = src/Duration.h; sourceTree = SOURCE_ROOT; };
+		A07BC476C8EF492F9A05979D /* CmdDenotate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdDenotate.h; path = src/commands/CmdDenotate.h; sourceTree = SOURCE_ROOT; };
+		A1B2019C96C24322A3599956 /* JSON.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JSON.h; path = src/JSON.h; sourceTree = SOURCE_ROOT; };
+		A1DC30084DB14558BB7E4ED5 /* ColDepends.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColDepends.cpp; path = src/columns/ColDepends.cpp; sourceTree = SOURCE_ROOT; };
+		A2B0725E2FEB4ADAB3CF3B82 /* CmdAliases.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdAliases.h; path = src/commands/CmdAliases.h; sourceTree = SOURCE_ROOT; };
+		A3B39C3B65834E96BFEE7251 /* legacy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = legacy.cpp; path = src/legacy.cpp; sourceTree = SOURCE_ROOT; };
+		A54D4A5F60F74EE5B11DEF5B /* Msg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Msg.cpp; path = src/Msg.cpp; sourceTree = SOURCE_ROOT; };
+		A6D255390F504376A5352F0E /* CmdDiagnostics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdDiagnostics.h; path = src/commands/CmdDiagnostics.h; sourceTree = SOURCE_ROOT; };
+		A7078807B9AB4E4E94E8233F /* TDB2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TDB2.cpp; path = src/TDB2.cpp; sourceTree = SOURCE_ROOT; };
+		A7E2602AD95E4F99BD2671BB /* CmdUndo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdUndo.h; path = src/commands/CmdUndo.h; sourceTree = SOURCE_ROOT; };
+		A8A602B633D843F7AB215A4F /* CmdStart.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdStart.cpp; path = src/commands/CmdStart.cpp; sourceTree = SOURCE_ROOT; };
+		ABA07C45FDA445D6A49647E4 /* ColUntil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColUntil.cpp; path = src/columns/ColUntil.cpp; sourceTree = SOURCE_ROOT; };
+		AED59D67E5C641F2A592F9A8 /* libcolumns.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcolumns.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D5FC8C1EE243AA93FCC12E /* CmdAliases.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdAliases.cpp; path = src/commands/CmdAliases.cpp; sourceTree = SOURCE_ROOT; };
+		B1D4B16099A44DEFB68062D1 /* utf8.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf8.cpp; path = src/utf8.cpp; sourceTree = SOURCE_ROOT; };
+		B2232A0E83BB4F469C4F1D2B /* TransportSSH.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TransportSSH.h; path = src/TransportSSH.h; sourceTree = SOURCE_ROOT; };
+		B383F55873EB42F69F0D288E /* TransportSSH.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TransportSSH.cpp; path = src/TransportSSH.cpp; sourceTree = SOURCE_ROOT; };
+		B3A2BD17BF5E461E9AC1F5B9 /* CmdDiagnostics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdDiagnostics.cpp; path = src/commands/CmdDiagnostics.cpp; sourceTree = SOURCE_ROOT; };
+		B3DBAF82B7F04F318D8C5581 /* TransportShell.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TransportShell.h; path = src/TransportShell.h; sourceTree = SOURCE_ROOT; };
+		B4794D1850044E7A921FEF17 /* CmdBurndown.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdBurndown.h; path = src/commands/CmdBurndown.h; sourceTree = SOURCE_ROOT; };
+		B4F7655689E7472381C5A14E /* libcommands.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcommands.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52AD844AACC44CEB99A0A13 /* CmdDuplicate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdDuplicate.h; path = src/commands/CmdDuplicate.h; sourceTree = SOURCE_ROOT; };
+		B5B6C095029F4E5B94118DCE /* Readline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Readline.h; path = src/shell/Readline.h; sourceTree = SOURCE_ROOT; };
+		B5D35777388D4FC9917E63BB /* ColDepends.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColDepends.h; path = src/columns/ColDepends.h; sourceTree = SOURCE_ROOT; };
+		B664DC6E894B464A9466951E /* CmdExec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdExec.h; path = src/commands/CmdExec.h; sourceTree = SOURCE_ROOT; };
+		B720F9CB18F74830BCE52AF6 /* CmdShow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdShow.h; path = src/commands/CmdShow.h; sourceTree = SOURCE_ROOT; };
+		B7E87A2DA7484A89A8533E3C /* ColScheduled.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColScheduled.h; path = src/columns/ColScheduled.h; sourceTree = SOURCE_ROOT; };
+		B90B16E29A7549638D39B9E1 /* CmdPull.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdPull.cpp; path = src/commands/CmdPull.cpp; sourceTree = SOURCE_ROOT; };
+		B97BFDBA97F74E48A2B229AC /* CmdShow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdShow.cpp; path = src/commands/CmdShow.cpp; sourceTree = SOURCE_ROOT; };
+		B97D93191F124D2795B8A614 /* CmdGet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdGet.h; path = src/commands/CmdGet.h; sourceTree = SOURCE_ROOT; };
+		B9CB10ED050B410A9F87294E /* CmdStats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdStats.h; path = src/commands/CmdStats.h; sourceTree = SOURCE_ROOT; };
+		BA4A0D40E9174D1AB3242305 /* CmdAppend.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdAppend.h; path = src/commands/CmdAppend.h; sourceTree = SOURCE_ROOT; };
+		BC65A4503FC3409AA4F09384 /* ColTags.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColTags.cpp; path = src/columns/ColTags.cpp; sourceTree = SOURCE_ROOT; };
+		BC9EE02F06394B3A8CCBF65F /* CmdHelp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdHelp.h; path = src/commands/CmdHelp.h; sourceTree = SOURCE_ROOT; };
+		BCCE29AB1DD44D35834B26D5 /* JSON.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JSON.cpp; path = src/JSON.cpp; sourceTree = SOURCE_ROOT; };
+		BD303015C33D4E8CB056FBC4 /* A3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = A3.h; path = src/A3.h; sourceTree = SOURCE_ROOT; };
+		BDC10213DBF44A4DAE8EF12B /* CmdCommands.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdCommands.h; path = src/commands/CmdCommands.h; sourceTree = SOURCE_ROOT; };
+		BF3586B726904D81918CE3B7 /* CmdInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdInfo.h; path = src/commands/CmdInfo.h; sourceTree = SOURCE_ROOT; };
+		C0E2105BF9614C81A05A8D45 /* ColMask.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColMask.h; path = src/columns/ColMask.h; sourceTree = SOURCE_ROOT; };
+		C100BEDEBD344ED6ADE24188 /* Config.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Config.cpp; path = src/Config.cpp; sourceTree = SOURCE_ROOT; };
+		C18A10D438F446708568C354 /* ColUrgency.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColUrgency.cpp; path = src/columns/ColUrgency.cpp; sourceTree = SOURCE_ROOT; };
+		C3D9CC7987B64141AD4AB718 /* Nibbler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Nibbler.h; path = src/Nibbler.h; sourceTree = SOURCE_ROOT; };
+		C643B7A3FF894862B34AB365 /* ColParent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColParent.h; path = src/columns/ColParent.h; sourceTree = SOURCE_ROOT; };
+		C75744BA724F4FF3B6D44817 /* text.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = text.h; path = src/text.h; sourceTree = SOURCE_ROOT; };
+		C8329923E759462FB0DB44D3 /* Context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Context.h; path = src/Context.h; sourceTree = SOURCE_ROOT; };
+		C8EF5E2DE9EA414A90A0BC79 /* CmdCalendar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdCalendar.h; path = src/commands/CmdCalendar.h; sourceTree = SOURCE_ROOT; };
+		C9C5CE6E6227424EA9B1EE1B /* Hooks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Hooks.cpp; path = src/Hooks.cpp; sourceTree = SOURCE_ROOT; };
+		C9D31A13369D48748C33048A /* RX.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RX.cpp; path = src/RX.cpp; sourceTree = SOURCE_ROOT; };
+		CA1DD6A620024C2FB8604D25 /* CmdImport.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdImport.cpp; path = src/commands/CmdImport.cpp; sourceTree = SOURCE_ROOT; };
+		CA837A823E484007A24EF982 /* ColUDA.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColUDA.h; path = src/columns/ColUDA.h; sourceTree = SOURCE_ROOT; };
+		CBD7B40BD52541CE83E7857A /* Hooks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Hooks.h; path = src/Hooks.h; sourceTree = SOURCE_ROOT; };
+		CFF14E332A664FEE8EDD9E39 /* TLSClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TLSClient.cpp; path = src/TLSClient.cpp; sourceTree = SOURCE_ROOT; };
+		D213053C60AD4CD8B5351E7D /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/shell/main.cpp; sourceTree = SOURCE_ROOT; };
+		D22CBE52C70245E3ADFFD11B /* Taskmod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Taskmod.h; path = src/Taskmod.h; sourceTree = SOURCE_ROOT; };
+		D2D5BFBB024A441D8FECCFD6 /* ColDescription.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColDescription.cpp; path = src/columns/ColDescription.cpp; sourceTree = SOURCE_ROOT; };
+		D2D74B8DF6414CAD97742AF0 /* CmdSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdSync.cpp; path = src/commands/CmdSync.cpp; sourceTree = SOURCE_ROOT; };
+		D4E74CDF7DEA4D82A6998553 /* Nibbler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Nibbler.cpp; path = src/Nibbler.cpp; sourceTree = SOURCE_ROOT; };
+		D5B468832B124ACDB7F11F09 /* CmdLogo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdLogo.cpp; path = src/commands/CmdLogo.cpp; sourceTree = SOURCE_ROOT; };
+		D5ED7F56F3BD4403AD2D14A1 /* TransportCurl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TransportCurl.cpp; path = src/TransportCurl.cpp; sourceTree = SOURCE_ROOT; };
+		D6533591694D419CA8D1B70E /* CmdUDAs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdUDAs.h; path = src/commands/CmdUDAs.h; sourceTree = SOURCE_ROOT; };
+		D6636F2802244D6A8EDC0B96 /* Arg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Arg.h; path = src/Arg.h; sourceTree = SOURCE_ROOT; };
+		D68C85D87CFB406F96F60911 /* ColMask.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColMask.cpp; path = src/columns/ColMask.cpp; sourceTree = SOURCE_ROOT; };
+		D765DA00233B4C4AB8BA3F7B /* interactive.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = interactive.cpp; path = src/interactive.cpp; sourceTree = SOURCE_ROOT; };
+		D946EDDDE44341D69859EC7E /* CmdAnnotate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdAnnotate.h; path = src/commands/CmdAnnotate.h; sourceTree = SOURCE_ROOT; };
+		D9AD0DD21C23406FB651B457 /* feedback.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = feedback.cpp; path = src/feedback.cpp; sourceTree = SOURCE_ROOT; };
+		D9FA514E98C74B82BEDCA20C /* TDB2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TDB2.h; path = src/TDB2.h; sourceTree = SOURCE_ROOT; };
+		DB69FF8C1EBB441484EE2BF8 /* ColEntry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColEntry.cpp; path = src/columns/ColEntry.cpp; sourceTree = SOURCE_ROOT; };
+		DC450BCAEF194D418E744908 /* Arg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Arg.cpp; path = src/Arg.cpp; sourceTree = SOURCE_ROOT; };
+		DCABE54460D44CD1A1567521 /* CmdUrgency.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdUrgency.cpp; path = src/commands/CmdUrgency.cpp; sourceTree = SOURCE_ROOT; };
+		DD8FFCD90FA549E8AFA22F75 /* CmdModify.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdModify.h; path = src/commands/CmdModify.h; sourceTree = SOURCE_ROOT; };
+		DEC74577E323436B8E7972D6 /* CmdAdd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdAdd.h; path = src/commands/CmdAdd.h; sourceTree = SOURCE_ROOT; };
+		DFB02C27B6F041C6B365DA08 /* CmdTags.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdTags.cpp; path = src/commands/CmdTags.cpp; sourceTree = SOURCE_ROOT; };
+		E0978FE281F748A1B736181B /* ColString.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColString.cpp; path = src/columns/ColString.cpp; sourceTree = SOURCE_ROOT; };
+		E39FE4430DB44B8D95F7E5B2 /* libtasksh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtasksh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C87BEDFB7C48CE91102877 /* CmdConfig.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdConfig.cpp; path = src/commands/CmdConfig.cpp; sourceTree = SOURCE_ROOT; };
+		E526790E0C3644F4AF4BC2C9 /* rules.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rules.cpp; path = src/rules.cpp; sourceTree = SOURCE_ROOT; };
+		E545FD1C6B8C4037A0B9E49F /* CmdUrgency.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdUrgency.h; path = src/commands/CmdUrgency.h; sourceTree = SOURCE_ROOT; };
+		E800B918F0AD4F15871CEF58 /* ColRecur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColRecur.h; path = src/columns/ColRecur.h; sourceTree = SOURCE_ROOT; };
+		E84393BF4B2E4DD7A19F4C31 /* ColUDA.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColUDA.cpp; path = src/columns/ColUDA.cpp; sourceTree = SOURCE_ROOT; };
+		E9B292CC05A142F387AE1B76 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EA5132FB6C0F4385A230C733 /* CmdHelp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdHelp.cpp; path = src/commands/CmdHelp.cpp; sourceTree = SOURCE_ROOT; };
+		EAED56A701D74E75BC91D75C /* Column.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Column.cpp; path = src/columns/Column.cpp; sourceTree = SOURCE_ROOT; };
+		ECAD83612D904033854F8493 /* ColDue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ColDue.h; path = src/columns/ColDue.h; sourceTree = SOURCE_ROOT; };
+		ECEB92244DCD481D85D357A6 /* CmdCustom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdCustom.cpp; path = src/commands/CmdCustom.cpp; sourceTree = SOURCE_ROOT; };
+		ED54C91D6EE64CB7AC9087F7 /* CmdUndo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdUndo.cpp; path = src/commands/CmdUndo.cpp; sourceTree = SOURCE_ROOT; };
+		EDD22BF93FB84BAF913D9901 /* Duration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Duration.cpp; path = src/Duration.cpp; sourceTree = SOURCE_ROOT; };
+		F026DED8301849EAAEFC965F /* Path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Path.cpp; path = src/Path.cpp; sourceTree = SOURCE_ROOT; };
+		F11F6A6257414DC386A699DD /* CmdEdit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CmdEdit.h; path = src/commands/CmdEdit.h; sourceTree = SOURCE_ROOT; };
+		F50E873D00EE414BBF698D32 /* ColID.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColID.cpp; path = src/columns/ColID.cpp; sourceTree = SOURCE_ROOT; };
+		F778CBF7892741B8AE2AE0BE /* CmdDuplicate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdDuplicate.cpp; path = src/commands/CmdDuplicate.cpp; sourceTree = SOURCE_ROOT; };
+		F7FCA9D1A6C04FEDBBC86E91 /* DOM.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DOM.h; path = src/DOM.h; sourceTree = SOURCE_ROOT; };
+		F8E9D81ED7CE46E1BBAD4C0B /* E9.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = E9.cpp; path = src/E9.cpp; sourceTree = SOURCE_ROOT; };
+		F91BB3B27CE846C9BF3C9815 /* ColProject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColProject.cpp; path = src/columns/ColProject.cpp; sourceTree = SOURCE_ROOT; };
+		F91CD53443834966AD9400A5 /* Transport.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Transport.cpp; path = src/Transport.cpp; sourceTree = SOURCE_ROOT; };
+		FBF25CE171EA456C9A7FE382 /* Task.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Task.cpp; path = src/Task.cpp; sourceTree = SOURCE_ROOT; };
+		FFA4DD65DDBE4C55A2EF5DC9 /* DOM.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DOM.cpp; path = src/DOM.cpp; sourceTree = SOURCE_ROOT; };
+		FFA925623DA244F5B96137B1 /* ColStart.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ColStart.cpp; path = src/columns/ColStart.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0047C848DB4E4361B997027A /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				E24F4662811F409E8D537CA3 /* CMake Rules */,
+				E9B292CC05A142F387AE1B76 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		0F5E91D5F56B4112856C2B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44929950F88640D7A1E72599 /* libtask.a */,
+				65BA0AFD80314D0EAD4403EE /* task */,
+				B4F7655689E7472381C5A14E /* libcommands.a */,
+				AED59D67E5C641F2A592F9A8 /* libcolumns.a */,
+				E39FE4430DB44B8D95F7E5B2 /* libtasksh.a */,
+				53C479B619D84CF597E97048 /* tasksh */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16612436119F416D8ED32B94 /* tasksh */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B168129484184A9995A8D /* Source Files */,
+				509546F47DA74F428FF9D12F /* Header Files */,
+				333FBACB8BAE4BBF9DCB30A3 /* CMakeLists.txt */,
+			);
+			name = tasksh;
+			sourceTree = "<group>";
+		};
+		325C62C87B434FBEB9F40EBC /* task */ = {
+			isa = PBXGroup;
+			children = (
+				AC63770E50FB4088A1291778 /* Source Files */,
+				B75E4CB558EA448780BE89C3 /* Header Files */,
+				9CBEB7BC5F4B4B17998D757F /* CMakeLists.txt */,
+			);
+			name = task;
+			sourceTree = "<group>";
+		};
+		3DC899BB80424425B9E1CFC5 /* task_executable */ = {
+			isa = PBXGroup;
+			children = (
+				CFD26D8600014A7A9E852E7F /* Source Files */,
+				9CBEB7BC5F4B4B17998D757F /* CMakeLists.txt */,
+			);
+			name = task_executable;
+			sourceTree = "<group>";
+		};
+		3EEC183D577B4618BCC00B67 /* columns */ = {
+			isa = PBXGroup;
+			children = (
+				CFBCAF48EB224865B4ABA2B9 /* Source Files */,
+				4E069266E98C43A3A9E7582F /* Header Files */,
+				63BB33F0132E4BCAA83594B1 /* CMakeLists.txt */,
+			);
+			name = columns;
+			sourceTree = "<group>";
+		};
+		4DD65260B52A490280399C2A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C4CAA8C8A1BC415984832216 /* ALL_BUILD */,
+				0047C848DB4E4361B997027A /* ZERO_CHECK */,
+				325C62C87B434FBEB9F40EBC /* task */,
+				3DC899BB80424425B9E1CFC5 /* task_executable */,
+				76E8B84DDA314D9B8AB76A9F /* commands */,
+				3EEC183D577B4618BCC00B67 /* columns */,
+				16612436119F416D8ED32B94 /* tasksh */,
+				7B71D518FBB14A29B54520F9 /* tasksh_executable */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		4E069266E98C43A3A9E7582F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				930EF76C4F6D4CF0A2481D0B /* ColDate.h */,
+				B5D35777388D4FC9917E63BB /* ColDepends.h */,
+				2F7285756AF44883BE59426C /* ColDescription.h */,
+				ECAD83612D904033854F8493 /* ColDue.h */,
+				97DDBA2A7E864909AF793089 /* ColEnd.h */,
+				53DBD65640014361ABA8F908 /* ColEntry.h */,
+				2DCE176C02B3408089494E93 /* ColID.h */,
+				359D3F31774E4772B0755247 /* ColIMask.h */,
+				C0E2105BF9614C81A05A8D45 /* ColMask.h */,
+				1EAB645945EE4351A603BC6D /* ColModified.h */,
+				C643B7A3FF894862B34AB365 /* ColParent.h */,
+				911ABC5A4B4147C7A35341DD /* ColPriority.h */,
+				6086BE182AC149B296668BB3 /* ColProject.h */,
+				E800B918F0AD4F15871CEF58 /* ColRecur.h */,
+				B7E87A2DA7484A89A8533E3C /* ColScheduled.h */,
+				202D007708D943E3B3CA548C /* ColStart.h */,
+				193A3A66532C425880D13679 /* ColStatus.h */,
+				0C6513F3A9694A97907FF4FF /* ColString.h */,
+				63D7575F53A94D81B40E73EE /* ColTags.h */,
+				CA837A823E484007A24EF982 /* ColUDA.h */,
+				8842F59F37C64950A87F2D06 /* ColUUID.h */,
+				5BF54FC6C4BF4E42BA699ACC /* ColUntil.h */,
+				6907969204E8402C8E8A63C7 /* ColUrgency.h */,
+				59AAF6CFFDFB4BCD91A3D13C /* ColWait.h */,
+				5734AE673B674D9C8B17F2CC /* Column.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		509546F47DA74F428FF9D12F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5B6C095029F4E5B94118DCE /* Readline.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		76E8B84DDA314D9B8AB76A9F /* commands */ = {
+			isa = PBXGroup;
+			children = (
+				B02153E696654859A2C7BE37 /* Source Files */,
+				F47F0D5C857F4FD8A2B40DE8 /* Header Files */,
+				020A3803A9A1491980E6AB13 /* CMakeLists.txt */,
+			);
+			name = commands;
+			sourceTree = "<group>";
+		};
+		7B71D518FBB14A29B54520F9 /* tasksh_executable */ = {
+			isa = PBXGroup;
+			children = (
+				904378AFC2484F7E80DC356A /* Source Files */,
+				333FBACB8BAE4BBF9DCB30A3 /* CMakeLists.txt */,
+			);
+			name = tasksh_executable;
+			sourceTree = "<group>";
+		};
+		904378AFC2484F7E80DC356A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D213053C60AD4CD8B5351E7D /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AC63770E50FB4088A1291778 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E69CC16620C4697A827E52F /* A3.cpp */,
+				DC450BCAEF194D418E744908 /* Arg.cpp */,
+				3768BB464EBF4DC883C67CAE /* Color.cpp */,
+				C100BEDEBD344ED6ADE24188 /* Config.cpp */,
+				9D465035623B4969AE2955D5 /* Context.cpp */,
+				FFA4DD65DDBE4C55A2EF5DC9 /* DOM.cpp */,
+				76C559C4010B494AB4B9CADE /* Date.cpp */,
+				594D696DE3A3415C82481E9C /* Directory.cpp */,
+				EDD22BF93FB84BAF913D9901 /* Duration.cpp */,
+				F8E9D81ED7CE46E1BBAD4C0B /* E9.cpp */,
+				3B05E71FA61D4849A784195F /* File.cpp */,
+				C9C5CE6E6227424EA9B1EE1B /* Hooks.cpp */,
+				BCCE29AB1DD44D35834B26D5 /* JSON.cpp */,
+				A54D4A5F60F74EE5B11DEF5B /* Msg.cpp */,
+				D4E74CDF7DEA4D82A6998553 /* Nibbler.cpp */,
+				F026DED8301849EAAEFC965F /* Path.cpp */,
+				C9D31A13369D48748C33048A /* RX.cpp */,
+				A7078807B9AB4E4E94E8233F /* TDB2.cpp */,
+				CFF14E332A664FEE8EDD9E39 /* TLSClient.cpp */,
+				FBF25CE171EA456C9A7FE382 /* Task.cpp */,
+				28A4F28955974877981C9A5E /* Taskmod.cpp */,
+				457BD2AC16FF440ABC9205DB /* Timer.cpp */,
+				F91CD53443834966AD9400A5 /* Transport.cpp */,
+				D5ED7F56F3BD4403AD2D14A1 /* TransportCurl.cpp */,
+				50CE999D9C0F400CB4A6D141 /* TransportRSYNC.cpp */,
+				B383F55873EB42F69F0D288E /* TransportSSH.cpp */,
+				24611FE712414892BD389CB3 /* TransportShell.cpp */,
+				8C9226CA2FCE4569AA9E3548 /* Uri.cpp */,
+				2ED237561FD8463F9C36E32B /* ViewTask.cpp */,
+				3BA24579F8DC412E812E14EF /* ViewText.cpp */,
+				4B29AF59196B4D5D856F7436 /* dependency.cpp */,
+				D9AD0DD21C23406FB651B457 /* feedback.cpp */,
+				D765DA00233B4C4AB8BA3F7B /* interactive.cpp */,
+				A3B39C3B65834E96BFEE7251 /* legacy.cpp */,
+				93EDCD12BBE74B2C8A8447E3 /* recur.cpp */,
+				E526790E0C3644F4AF4BC2C9 /* rules.cpp */,
+				68B1B26F0C3B448C9A84B356 /* sort.cpp */,
+				8B4A85571275491B8E579822 /* text.cpp */,
+				B1D4B16099A44DEFB68062D1 /* utf8.cpp */,
+				962278DEB837447A96A24029 /* util.cpp */,
+				121C35D91BFF47428B51056E /* wcwidth6.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B02153E696654859A2C7BE37 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				795B7A6781F547A098B68E9F /* CmdAdd.cpp */,
+				B0D5FC8C1EE243AA93FCC12E /* CmdAliases.cpp */,
+				94D048E4904C491B8BAA3C1C /* CmdAnnotate.cpp */,
+				23FBC4F66C4F4DE9BDDD0CBA /* CmdAppend.cpp */,
+				56F6C4517596477B9DA3EA4E /* CmdBurndown.cpp */,
+				90C6F33C03D74435B3BF6AA6 /* CmdCalendar.cpp */,
+				3F7F4A6FCFE14C6E8AD0BF0E /* CmdColor.cpp */,
+				7ADF7657B49B49D3A4C63424 /* CmdColumns.cpp */,
+				0ACE0417D12D433DBA6DEDAA /* CmdCommands.cpp */,
+				E4C87BEDFB7C48CE91102877 /* CmdConfig.cpp */,
+				65E0E0D7996140269EAE3CB2 /* CmdCount.cpp */,
+				ECEB92244DCD481D85D357A6 /* CmdCustom.cpp */,
+				84564351C0AE4B4B9E2DBC58 /* CmdDelete.cpp */,
+				3AA101838E34437B9236888E /* CmdDenotate.cpp */,
+				B3A2BD17BF5E461E9AC1F5B9 /* CmdDiagnostics.cpp */,
+				1B815956CAB84EB6BE014C37 /* CmdDone.cpp */,
+				F778CBF7892741B8AE2AE0BE /* CmdDuplicate.cpp */,
+				4AA5F4CE1109472FBAE4D613 /* CmdEdit.cpp */,
+				456F9BBC66364749A4862978 /* CmdExec.cpp */,
+				84B78D422B4147B7BC1A5B55 /* CmdExport.cpp */,
+				86DFDE38B8FB4FA69B3E9D76 /* CmdGet.cpp */,
+				EA5132FB6C0F4385A230C733 /* CmdHelp.cpp */,
+				77476BB4E71D4E7E994516F7 /* CmdHistory.cpp */,
+				16A9E6B6060A448A9EF27E91 /* CmdIDs.cpp */,
+				CA1DD6A620024C2FB8604D25 /* CmdImport.cpp */,
+				61A55D882AAC498A9F004F53 /* CmdInfo.cpp */,
+				0B5615994F3542E79FB4D5FD /* CmdLog.cpp */,
+				D5B468832B124ACDB7F11F09 /* CmdLogo.cpp */,
+				978C1E6364D44A42934F3672 /* CmdMerge.cpp */,
+				4BA658B19B514A329803EA58 /* CmdModify.cpp */,
+				604B7731A67449C4B9016E94 /* CmdPrepend.cpp */,
+				8D5C464361B947849806D8B9 /* CmdProjects.cpp */,
+				B90B16E29A7549638D39B9E1 /* CmdPull.cpp */,
+				0872F5B2D70A41929F489D45 /* CmdPush.cpp */,
+				4E0D2980C9A14E0B8BC94CE1 /* CmdReports.cpp */,
+				B97BFDBA97F74E48A2B229AC /* CmdShow.cpp */,
+				A8A602B633D843F7AB215A4F /* CmdStart.cpp */,
+				8249B03D7F074F1D8C940BCD /* CmdStats.cpp */,
+				0096034B080948B7A36B2B87 /* CmdStop.cpp */,
+				1D5B177112984C3B9214C4BA /* CmdSummary.cpp */,
+				D2D74B8DF6414CAD97742AF0 /* CmdSync.cpp */,
+				DFB02C27B6F041C6B365DA08 /* CmdTags.cpp */,
+				637F0B3AA1104EE5A651977C /* CmdTimesheet.cpp */,
+				2B5F1A2D916648C492AA1F80 /* CmdUDAs.cpp */,
+				ED54C91D6EE64CB7AC9087F7 /* CmdUndo.cpp */,
+				DCABE54460D44CD1A1567521 /* CmdUrgency.cpp */,
+				09D05232A2BD4ED9B81221E3 /* CmdVersion.cpp */,
+				70768385105C434AA257F944 /* Command.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B75E4CB558EA448780BE89C3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD303015C33D4E8CB056FBC4 /* A3.h */,
+				D6636F2802244D6A8EDC0B96 /* Arg.h */,
+				8ED08DF1FD1E45D8B047C3BD /* Color.h */,
+				5B34870AFE6041CC89D578D7 /* Config.h */,
+				C8329923E759462FB0DB44D3 /* Context.h */,
+				F7FCA9D1A6C04FEDBBC86E91 /* DOM.h */,
+				125F0DA4CC5B446E83E550D7 /* Date.h */,
+				188581BEF2994F14A28ED936 /* Directory.h */,
+				9F91DAAC8CDC44EBA3230356 /* Duration.h */,
+				3FBD5D1DABDC46959ACC49F1 /* E9.h */,
+				14AD5D2C214C4EB3BE72C451 /* File.h */,
+				CBD7B40BD52541CE83E7857A /* Hooks.h */,
+				A1B2019C96C24322A3599956 /* JSON.h */,
+				0FA39C2740624D30BF3AECC0 /* Msg.h */,
+				C3D9CC7987B64141AD4AB718 /* Nibbler.h */,
+				4B7D2561C6E9465DB6D7E005 /* Path.h */,
+				2820B05D34C842B38E6B22EC /* RX.h */,
+				D9FA514E98C74B82BEDCA20C /* TDB2.h */,
+				71F9EF4514C7460EB10EB4D2 /* TLSClient.h */,
+				457CB82A4A0746FE89AE3275 /* Task.h */,
+				D22CBE52C70245E3ADFFD11B /* Taskmod.h */,
+				77F9881E3BDD4F2A8B7F1137 /* Timer.h */,
+				080AFCA1BCF849B2A8C1D6D7 /* Transport.h */,
+				344CDADC008D49159182081F /* TransportCurl.h */,
+				9B259C30C43F4EA384BBEE43 /* TransportRSYNC.h */,
+				B2232A0E83BB4F469C4F1D2B /* TransportSSH.h */,
+				B3DBAF82B7F04F318D8C5581 /* TransportShell.h */,
+				7FAEB852220942B79EFD2081 /* Uri.h */,
+				08074FD9EC1F4ACBA9C221F1 /* ViewTask.h */,
+				61D913CF1A564904932008B0 /* ViewText.h */,
+				8ED0373C9F70436080BFABBF /* i18n.h */,
+				C75744BA724F4FF3B6D44817 /* text.h */,
+				6EEC3B0E05924B2684FE0D76 /* utf8.h */,
+				2DAF28499E2A4648A972A127 /* util.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BC6B168129484184A9995A8D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BD74D8518BE4BD2817C171E /* Readline.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C4CAA8C8A1BC415984832216 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F50182FEAC82421790D4FF70 /* CMake Rules */,
+				E9B292CC05A142F387AE1B76 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CFBCAF48EB224865B4ABA2B9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B393B30FABF4ED8B785E767 /* ColDate.cpp */,
+				A1DC30084DB14558BB7E4ED5 /* ColDepends.cpp */,
+				D2D5BFBB024A441D8FECCFD6 /* ColDescription.cpp */,
+				868ADDC8796C423FBFA60FE2 /* ColDue.cpp */,
+				2EE8BC1E06024092B51E0BA1 /* ColEnd.cpp */,
+				DB69FF8C1EBB441484EE2BF8 /* ColEntry.cpp */,
+				F50E873D00EE414BBF698D32 /* ColID.cpp */,
+				22E63A889F484E75B751D07F /* ColIMask.cpp */,
+				D68C85D87CFB406F96F60911 /* ColMask.cpp */,
+				7A7E89773DE548EE95CBB241 /* ColModified.cpp */,
+				63028AD7768243B8AC257575 /* ColParent.cpp */,
+				4310400749814C95AD0C6DF5 /* ColPriority.cpp */,
+				F91BB3B27CE846C9BF3C9815 /* ColProject.cpp */,
+				455FB7A37D44449089C11913 /* ColRecur.cpp */,
+				84CC4FB3D8954CB1A0B0340A /* ColScheduled.cpp */,
+				FFA925623DA244F5B96137B1 /* ColStart.cpp */,
+				1E229195A60144B7935E2B66 /* ColStatus.cpp */,
+				E0978FE281F748A1B736181B /* ColString.cpp */,
+				BC65A4503FC3409AA4F09384 /* ColTags.cpp */,
+				E84393BF4B2E4DD7A19F4C31 /* ColUDA.cpp */,
+				51E9468037414A93ACBF147F /* ColUUID.cpp */,
+				ABA07C45FDA445D6A49647E4 /* ColUntil.cpp */,
+				C18A10D438F446708568C354 /* ColUrgency.cpp */,
+				2C5548FFAA8843368636A6E9 /* ColWait.cpp */,
+				EAED56A701D74E75BC91D75C /* Column.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CFD26D8600014A7A9E852E7F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E711EC80C14EBBA4C234E8 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D7A8CBDDBD64479D8226737D = {
+			isa = PBXGroup;
+			children = (
+				4DD65260B52A490280399C2A /* Sources */,
+				F45773DC429E4D0E9B73AA1E /* Resources */,
+				0F5E91D5F56B4112856C2B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E24F4662811F409E8D537CA3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F45773DC429E4D0E9B73AA1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F47F0D5C857F4FD8A2B40DE8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEC74577E323436B8E7972D6 /* CmdAdd.h */,
+				A2B0725E2FEB4ADAB3CF3B82 /* CmdAliases.h */,
+				D946EDDDE44341D69859EC7E /* CmdAnnotate.h */,
+				BA4A0D40E9174D1AB3242305 /* CmdAppend.h */,
+				B4794D1850044E7A921FEF17 /* CmdBurndown.h */,
+				C8EF5E2DE9EA414A90A0BC79 /* CmdCalendar.h */,
+				0DEFAB5AF5494D3A8490636A /* CmdColor.h */,
+				8DC2BFBD43454BB08F63EC58 /* CmdColumns.h */,
+				BDC10213DBF44A4DAE8EF12B /* CmdCommands.h */,
+				8B81E2F375E94C58BE7C3902 /* CmdConfig.h */,
+				8868ED166C8048F8B49634DC /* CmdCount.h */,
+				94A1B1FCBAE44873A1BBC330 /* CmdCustom.h */,
+				0F79B2FBACDC493D90B8253E /* CmdDelete.h */,
+				A07BC476C8EF492F9A05979D /* CmdDenotate.h */,
+				A6D255390F504376A5352F0E /* CmdDiagnostics.h */,
+				9A0BA4886DF44776A2C6571E /* CmdDone.h */,
+				B52AD844AACC44CEB99A0A13 /* CmdDuplicate.h */,
+				F11F6A6257414DC386A699DD /* CmdEdit.h */,
+				B664DC6E894B464A9466951E /* CmdExec.h */,
+				87D7FE3796DB4F0782EB4E27 /* CmdExport.h */,
+				B97D93191F124D2795B8A614 /* CmdGet.h */,
+				BC9EE02F06394B3A8CCBF65F /* CmdHelp.h */,
+				8A71A354B5DF4EDDBE9544D1 /* CmdHistory.h */,
+				1FB0A3B9CAA14020AD6BB4A6 /* CmdIDs.h */,
+				33471D399F034874B95539AF /* CmdImport.h */,
+				BF3586B726904D81918CE3B7 /* CmdInfo.h */,
+				92F768D0579942B382722F0D /* CmdLog.h */,
+				7B71A1F9BDF343DA979F8AFE /* CmdLogo.h */,
+				16FD6BE74B3B4400A184E171 /* CmdMerge.h */,
+				DD8FFCD90FA549E8AFA22F75 /* CmdModify.h */,
+				18F50BCDEC6F47EA88E0A384 /* CmdPrepend.h */,
+				20017D1FBBA74D769744DC3C /* CmdProjects.h */,
+				3C60F55CE19B4912B3F336C2 /* CmdPull.h */,
+				8001E70F5F2A4D2BA95E3330 /* CmdPush.h */,
+				61685CDAB3F7428C92CF192E /* CmdReports.h */,
+				B720F9CB18F74830BCE52AF6 /* CmdShow.h */,
+				37EC645355B54B6ABDA72E10 /* CmdStart.h */,
+				B9CB10ED050B410A9F87294E /* CmdStats.h */,
+				43C19D1B53084DA9B0598166 /* CmdStop.h */,
+				59C8432B16044262B227EA19 /* CmdSummary.h */,
+				99F7B1C0043D4ECBA4ACF5DE /* CmdSync.h */,
+				2B7820DAC7A94966B3CC52A3 /* CmdTags.h */,
+				770A3BD61D824025BF9FC806 /* CmdTimesheet.h */,
+				D6533591694D419CA8D1B70E /* CmdUDAs.h */,
+				A7E2602AD95E4F99BD2671BB /* CmdUndo.h */,
+				E545FD1C6B8C4037A0B9E49F /* CmdUrgency.h */,
+				0F041E8A75B84A5DB59E2FED /* CmdVersion.h */,
+				55BB79E2B2374759BD456D2B /* Command.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F50182FEAC82421790D4FF70 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		632FDF651915DD0000930FCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632FDF661915DD0F00930FCE /* Task.h in Headers */,
+				632FDF6B1915DD2300930FCE /* Context.h in Headers */,
+				632FDF671915DD2300930FCE /* A3.h in Headers */,
+				632FDF681915DD2300930FCE /* Arg.h in Headers */,
+				632FDF691915DD2300930FCE /* Color.h in Headers */,
+				632FDF6A1915DD2300930FCE /* Config.h in Headers */,
+				632FDF751915DD2300930FCE /* Nibbler.h in Headers */,
+				632FDF711915DD2300930FCE /* File.h in Headers */,
+				632FDF761915DD2300930FCE /* Path.h in Headers */,
+				632FDF781915DD2300930FCE /* TDB2.h in Headers */,
+				632FDF831915DD2300930FCE /* ViewText.h in Headers */,
+				632FDF721915DD2300930FCE /* Hooks.h in Headers */,
+				632FDF6E1915DD2300930FCE /* Directory.h in Headers */,
+				632FDF6C1915DD2300930FCE /* DOM.h in Headers */,
+				632FDF7B1915DD2300930FCE /* Timer.h in Headers */,
+				632FDF6D1915DD2300930FCE /* Date.h in Headers */,
+				632FDF6F1915DD2300930FCE /* Duration.h in Headers */,
+				632FDF701915DD2300930FCE /* E9.h in Headers */,
+				632FDF731915DD2300930FCE /* JSON.h in Headers */,
+				632FDF741915DD2300930FCE /* Msg.h in Headers */,
+				632FDF771915DD2300930FCE /* RX.h in Headers */,
+				632FDF791915DD2300930FCE /* TLSClient.h in Headers */,
+				632FDF7A1915DD2300930FCE /* Taskmod.h in Headers */,
+				632FDF7C1915DD2300930FCE /* Transport.h in Headers */,
+				632FDF7D1915DD2300930FCE /* TransportCurl.h in Headers */,
+				632FDF7E1915DD2300930FCE /* TransportRSYNC.h in Headers */,
+				632FDF7F1915DD2300930FCE /* TransportSSH.h in Headers */,
+				632FDF801915DD2300930FCE /* TransportShell.h in Headers */,
+				632FDF811915DD2300930FCE /* Uri.h in Headers */,
+				632FDF821915DD2300930FCE /* ViewTask.h in Headers */,
+				632FDF841915DD2300930FCE /* i18n.h in Headers */,
+				632FDF851915DD2300930FCE /* text.h in Headers */,
+				632FDF861915DD2300930FCE /* utf8.h in Headers */,
+				632FDF871915DD2300930FCE /* util.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632FDF881915DD5300930FCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632FDFB81915DD6000930FCE /* Command.h in Headers */,
+				632FDF891915DD5F00930FCE /* CmdAdd.h in Headers */,
+				632FDF8A1915DD5F00930FCE /* CmdAliases.h in Headers */,
+				632FDF8B1915DD5F00930FCE /* CmdAnnotate.h in Headers */,
+				632FDF8C1915DD5F00930FCE /* CmdAppend.h in Headers */,
+				632FDF8D1915DD5F00930FCE /* CmdBurndown.h in Headers */,
+				632FDF8E1915DD5F00930FCE /* CmdCalendar.h in Headers */,
+				632FDF8F1915DD5F00930FCE /* CmdColor.h in Headers */,
+				632FDF901915DD5F00930FCE /* CmdColumns.h in Headers */,
+				632FDF911915DD5F00930FCE /* CmdCommands.h in Headers */,
+				632FDF921915DD5F00930FCE /* CmdConfig.h in Headers */,
+				632FDF931915DD5F00930FCE /* CmdCount.h in Headers */,
+				632FDF941915DD5F00930FCE /* CmdCustom.h in Headers */,
+				632FDF951915DD5F00930FCE /* CmdDelete.h in Headers */,
+				632FDF961915DD5F00930FCE /* CmdDenotate.h in Headers */,
+				632FDF971915DD5F00930FCE /* CmdDiagnostics.h in Headers */,
+				632FDF981915DD5F00930FCE /* CmdDone.h in Headers */,
+				632FDF991915DD5F00930FCE /* CmdDuplicate.h in Headers */,
+				632FDF9A1915DD5F00930FCE /* CmdEdit.h in Headers */,
+				632FDF9B1915DD5F00930FCE /* CmdExec.h in Headers */,
+				632FDF9C1915DD5F00930FCE /* CmdExport.h in Headers */,
+				632FDF9D1915DD5F00930FCE /* CmdGet.h in Headers */,
+				632FDF9E1915DD5F00930FCE /* CmdHelp.h in Headers */,
+				632FDF9F1915DD5F00930FCE /* CmdHistory.h in Headers */,
+				632FDFA01915DD5F00930FCE /* CmdIDs.h in Headers */,
+				632FDFA11915DD5F00930FCE /* CmdImport.h in Headers */,
+				632FDFA21915DD5F00930FCE /* CmdInfo.h in Headers */,
+				632FDFA31915DD5F00930FCE /* CmdLog.h in Headers */,
+				632FDFA41915DD5F00930FCE /* CmdLogo.h in Headers */,
+				632FDFA51915DD5F00930FCE /* CmdMerge.h in Headers */,
+				632FDFA61915DD5F00930FCE /* CmdModify.h in Headers */,
+				632FDFA71915DD5F00930FCE /* CmdPrepend.h in Headers */,
+				632FDFA81915DD6000930FCE /* CmdProjects.h in Headers */,
+				632FDFA91915DD6000930FCE /* CmdPull.h in Headers */,
+				632FDFAA1915DD6000930FCE /* CmdPush.h in Headers */,
+				632FDFAB1915DD6000930FCE /* CmdReports.h in Headers */,
+				632FDFAC1915DD6000930FCE /* CmdShow.h in Headers */,
+				632FDFAD1915DD6000930FCE /* CmdStart.h in Headers */,
+				632FDFAE1915DD6000930FCE /* CmdStats.h in Headers */,
+				632FDFAF1915DD6000930FCE /* CmdStop.h in Headers */,
+				632FDFB01915DD6000930FCE /* CmdSummary.h in Headers */,
+				632FDFB11915DD6000930FCE /* CmdSync.h in Headers */,
+				632FDFB21915DD6000930FCE /* CmdTags.h in Headers */,
+				632FDFB31915DD6000930FCE /* CmdTimesheet.h in Headers */,
+				632FDFB41915DD6000930FCE /* CmdUDAs.h in Headers */,
+				632FDFB51915DD6000930FCE /* CmdUndo.h in Headers */,
+				632FDFB61915DD6000930FCE /* CmdUrgency.h in Headers */,
+				632FDFB71915DD6000930FCE /* CmdVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632FDFB91915DD8500930FCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632FDFD21915DD8900930FCE /* Column.h in Headers */,
+				632FDFBA1915DD8800930FCE /* ColDate.h in Headers */,
+				632FDFBB1915DD8800930FCE /* ColDepends.h in Headers */,
+				632FDFBC1915DD8800930FCE /* ColDescription.h in Headers */,
+				632FDFBD1915DD8800930FCE /* ColDue.h in Headers */,
+				632FDFBE1915DD8800930FCE /* ColEnd.h in Headers */,
+				632FDFBF1915DD8800930FCE /* ColEntry.h in Headers */,
+				632FDFC01915DD8800930FCE /* ColID.h in Headers */,
+				632FDFC11915DD8900930FCE /* ColIMask.h in Headers */,
+				632FDFC21915DD8900930FCE /* ColMask.h in Headers */,
+				632FDFC31915DD8900930FCE /* ColModified.h in Headers */,
+				632FDFC41915DD8900930FCE /* ColParent.h in Headers */,
+				632FDFC51915DD8900930FCE /* ColPriority.h in Headers */,
+				632FDFC61915DD8900930FCE /* ColProject.h in Headers */,
+				632FDFC71915DD8900930FCE /* ColRecur.h in Headers */,
+				632FDFC81915DD8900930FCE /* ColScheduled.h in Headers */,
+				632FDFC91915DD8900930FCE /* ColStart.h in Headers */,
+				632FDFCA1915DD8900930FCE /* ColStatus.h in Headers */,
+				632FDFCB1915DD8900930FCE /* ColString.h in Headers */,
+				632FDFCC1915DD8900930FCE /* ColTags.h in Headers */,
+				632FDFCD1915DD8900930FCE /* ColUDA.h in Headers */,
+				632FDFCE1915DD8900930FCE /* ColUUID.h in Headers */,
+				632FDFCF1915DD8900930FCE /* ColUntil.h in Headers */,
+				632FDFD01915DD8900930FCE /* ColUrgency.h in Headers */,
+				632FDFD11915DD8900930FCE /* ColWait.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06CCA993A45A4FB29ACE4462 /* columns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09A9671736D4BCC8073DC06 /* Build configuration list for PBXNativeTarget "columns" */;
+			buildPhases = (
+				F51E597447AF4BFEA531219C /* Sources */,
+				632FDFB91915DD8500930FCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68EF1B87DE114417B016ACD9 /* PBXTargetDependency */,
+			);
+			name = columns;
+			productName = columns;
+			productReference = AED59D67E5C641F2A592F9A8 /* libcolumns.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		58AD2E1C5B9E499886DF73AB /* task_executable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DD1338BFCE464EA0B95ADB /* Build configuration list for PBXNativeTarget "task_executable" */;
+			buildPhases = (
+				A79B1F07C1A149A1A704E5A7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E478C73C3E2345CE89C14D06 /* PBXTargetDependency */,
+				F051C1B5DE404533957A4206 /* PBXTargetDependency */,
+				D656995DC9A0498087FA6D6E /* PBXTargetDependency */,
+				81B168ED604F400AAE463AC4 /* PBXTargetDependency */,
+			);
+			name = task_executable;
+			productName = task_executable;
+			productReference = 65BA0AFD80314D0EAD4403EE /* task */;
+			productType = "com.apple.product-type.tool";
+		};
+		799E636E3D364F54B53E8251 /* task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67D2988157E4FCB8BCEE3A1 /* Build configuration list for PBXNativeTarget "task" */;
+			buildPhases = (
+				A439679532694BBCA2F807C4 /* Sources */,
+				632FDF651915DD0000930FCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8292327AE9AF4FDA87D25864 /* PBXTargetDependency */,
+			);
+			name = task;
+			productName = task;
+			productReference = 44929950F88640D7A1E72599 /* libtask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B12F9F0BFCF845F7ADD149CC /* tasksh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B206E351B4754C6CB82408E2 /* Build configuration list for PBXNativeTarget "tasksh" */;
+			buildPhases = (
+				0C52C1C61E8944C2A855EDD1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E715D0E9925C40618C7C17F9 /* PBXTargetDependency */,
+			);
+			name = tasksh;
+			productName = tasksh;
+			productReference = E39FE4430DB44B8D95F7E5B2 /* libtasksh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE7CB879EE034178BFF56725 /* commands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A60352F12834EC5B1E529E7 /* Build configuration list for PBXNativeTarget "commands" */;
+			buildPhases = (
+				27EEA0C16B754DEF94456114 /* Sources */,
+				632FDF881915DD5300930FCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A06613AF32496296BAD82E /* PBXTargetDependency */,
+			);
+			name = commands;
+			productName = commands;
+			productReference = B4F7655689E7472381C5A14E /* libcommands.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2224D4B1BDF4F65A1A93D1C /* tasksh_executable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92A4A36230146DE81EE0585 /* Build configuration list for PBXNativeTarget "tasksh_executable" */;
+			buildPhases = (
+				D31BE3020F7845FDA95F0A00 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9097AFA4AC45F2AD2AC271 /* PBXTargetDependency */,
+				B539AD8EAEA6429BAF08CE42 /* PBXTargetDependency */,
+				E7ADC1F4392D4FBB8012B077 /* PBXTargetDependency */,
+				E9411F17C58F4039A0B44F8B /* PBXTargetDependency */,
+				2D5C094A3D774DF7860E8B06 /* PBXTargetDependency */,
+			);
+			name = tasksh_executable;
+			productName = tasksh_executable;
+			productReference = 53C479B619D84CF597E97048 /* tasksh */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF4AE03C8484746AC104BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 41C5ED64D1554650BE10FFDD /* Build configuration list for PBXProject "task" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7A8CBDDBD64479D8226737D;
+			projectDirPath = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task";
+			projectRoot = "";
+			targets = (
+				A237BF8D974D49D38CA5DE8C /* ALL_BUILD */,
+				2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */,
+				7D1CB762A73E420E94B6FC4D /* install */,
+				CAF183CBED304B2FBF476759 /* package */,
+				799E636E3D364F54B53E8251 /* task */,
+				58AD2E1C5B9E499886DF73AB /* task_executable */,
+				BE7CB879EE034178BFF56725 /* commands */,
+				06CCA993A45A4FB29ACE4462 /* columns */,
+				B12F9F0BFCF845F7ADD149CC /* tasksh */,
+				D2224D4B1BDF4F65A1A93D1C /* tasksh_executable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0025D5FD08A64533806876F2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build -f /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		661E68CD59114E4D8327BDA9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build -f /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+		};
+		6AF9FF67904E471782E1C4E7 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build -f /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		834C462DE8ED41A7A9971DB0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build -f /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C52C1C61E8944C2A855EDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1197F2043A40EA82706C16 /* Readline.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EEA0C16B754DEF94456114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1E87D047254611859E3E26 /* CmdAdd.cpp in Sources */,
+				66AA6CA7ED204B3DA10BD180 /* CmdAliases.cpp in Sources */,
+				AD49BE1A91FD4AD68A7052F7 /* CmdAnnotate.cpp in Sources */,
+				FD255A57A37D40A9920E109E /* CmdAppend.cpp in Sources */,
+				78ED131521EF4399BF8D3A6C /* CmdBurndown.cpp in Sources */,
+				9C4640B675C74EE194BE83C6 /* CmdCalendar.cpp in Sources */,
+				EBC6726253AC42F8A457D409 /* CmdColor.cpp in Sources */,
+				D7400D17FC1D4F51BE0A05C1 /* CmdColumns.cpp in Sources */,
+				7D330D3212ED49078ACEE0F6 /* CmdCommands.cpp in Sources */,
+				564C41EDFC9A4638BB0D1DB3 /* CmdConfig.cpp in Sources */,
+				1B9C9BB9AD7E4D8C8CE0387D /* CmdCount.cpp in Sources */,
+				A35B3F541388400FAA2E6D81 /* CmdCustom.cpp in Sources */,
+				C98B059A25A54E8C8434387C /* CmdDelete.cpp in Sources */,
+				59584A434BCA41CB84C4015E /* CmdDenotate.cpp in Sources */,
+				F76999B8E49244D9968BBEB7 /* CmdDiagnostics.cpp in Sources */,
+				6B62D1864C014BC498CC03D0 /* CmdDone.cpp in Sources */,
+				C847D35B782843EAB56B83CD /* CmdDuplicate.cpp in Sources */,
+				95051202FD33443D955B6967 /* CmdEdit.cpp in Sources */,
+				7607DDBC5B1D4C55B5E1B9E5 /* CmdExec.cpp in Sources */,
+				D803B1CCDE224FFA878E95E9 /* CmdExport.cpp in Sources */,
+				9A2EB169E62F4EBEA99C74A6 /* CmdGet.cpp in Sources */,
+				F0EE9958B5634EABBA226738 /* CmdHelp.cpp in Sources */,
+				A9333ABB4FFF4483848BE5F7 /* CmdHistory.cpp in Sources */,
+				C7983363015A4AA7AFBDE292 /* CmdIDs.cpp in Sources */,
+				059F916C6F0A47599E925B81 /* CmdImport.cpp in Sources */,
+				9C8C3686C286486FA98472AF /* CmdInfo.cpp in Sources */,
+				C7656B4A4C884F349B5DD47D /* CmdLog.cpp in Sources */,
+				32A512B397784371989E2846 /* CmdLogo.cpp in Sources */,
+				06B70920B1A64EE3B55C20CE /* CmdMerge.cpp in Sources */,
+				B8327D83230A46799789E789 /* CmdModify.cpp in Sources */,
+				114CA8B61FDF4C9DAB967EED /* CmdPrepend.cpp in Sources */,
+				835F5DA857D341D6A706DD6D /* CmdProjects.cpp in Sources */,
+				3A9AC16D6B674EFE9DEAB050 /* CmdPull.cpp in Sources */,
+				2491BC5BA48E4AE093CAD250 /* CmdPush.cpp in Sources */,
+				D394ED0E31794A51BC4BDA3B /* CmdReports.cpp in Sources */,
+				35E687DDFF044251A93986D0 /* CmdShow.cpp in Sources */,
+				0CEF9753A59B43DC9CED9878 /* CmdStart.cpp in Sources */,
+				31B8E968A0324F02A2243E78 /* CmdStats.cpp in Sources */,
+				1D07A8556921441CA1D2EE4C /* CmdStop.cpp in Sources */,
+				23FA899BFEFA4C92B8D0A655 /* CmdSummary.cpp in Sources */,
+				A62D2FE9A03A4CBF9E37B169 /* CmdSync.cpp in Sources */,
+				20429074EB744C21BFA1BFFC /* CmdTags.cpp in Sources */,
+				F33EF13BBD4843D095A4A6EF /* CmdTimesheet.cpp in Sources */,
+				B629EF4EECC44E88A7844FE4 /* CmdUDAs.cpp in Sources */,
+				6C0645910933447D8D7A7549 /* CmdUndo.cpp in Sources */,
+				DBBB8C81F0B54729B801AE66 /* CmdUrgency.cpp in Sources */,
+				EEEC837814364C058D4D3B58 /* CmdVersion.cpp in Sources */,
+				FC3745442AF84B6E8B46FE1E /* Command.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A439679532694BBCA2F807C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AF7D542F034CA195490E74 /* A3.cpp in Sources */,
+				9F1D6013D6804E8CABF49A16 /* Arg.cpp in Sources */,
+				267CC0E549CE4FCB9C4D85EC /* Color.cpp in Sources */,
+				359B8A6BA7904864ABB00E9D /* Config.cpp in Sources */,
+				94C5F1801AC5414A9A5F1572 /* Context.cpp in Sources */,
+				601A93B7E30D4C158546C997 /* DOM.cpp in Sources */,
+				9A1ED5001035443B8839A70E /* Date.cpp in Sources */,
+				55B07513A9434590B6B58B80 /* Directory.cpp in Sources */,
+				85BF5753B04B4F3A86D5FE0E /* Duration.cpp in Sources */,
+				DB6E11888D9F437EA8D343CC /* E9.cpp in Sources */,
+				5806E51E0C4C4B7FAF3E0420 /* File.cpp in Sources */,
+				94E3C7EC8B73454496E4A155 /* Hooks.cpp in Sources */,
+				890B7F0378D44A778B41D746 /* JSON.cpp in Sources */,
+				3C88A7134B26413EB9A9A0BA /* Msg.cpp in Sources */,
+				8A84949617624DEEB5D82FF3 /* Nibbler.cpp in Sources */,
+				B70B7519937843038F50FE5C /* Path.cpp in Sources */,
+				D17FD681D6094681A3DDEB93 /* RX.cpp in Sources */,
+				22E45C64A02D4C19B7C7E79F /* TDB2.cpp in Sources */,
+				CCFEAF1151DF40ADA1D87A07 /* TLSClient.cpp in Sources */,
+				01D00624A58041C58C911B0C /* Task.cpp in Sources */,
+				A92EC6E2666342F691F6099D /* Taskmod.cpp in Sources */,
+				51975DDFBEBB4C018DBC3BD7 /* Timer.cpp in Sources */,
+				80BE319C24DE4D8AA6A35107 /* Transport.cpp in Sources */,
+				1BF1314169934351B35FB7C3 /* TransportCurl.cpp in Sources */,
+				90A3F2014C914624B60C2696 /* TransportRSYNC.cpp in Sources */,
+				60BE2982C80A44578C4B15B7 /* TransportSSH.cpp in Sources */,
+				AAAE9C7EBC584D96B3630BEC /* TransportShell.cpp in Sources */,
+				94794A8B9D2840F197DB8903 /* Uri.cpp in Sources */,
+				5C4998F2366D4AA5839D3E14 /* ViewTask.cpp in Sources */,
+				F2D0B5CE14C74D00B0C876FD /* ViewText.cpp in Sources */,
+				40B21FD325574E5F85930D58 /* dependency.cpp in Sources */,
+				B777922C5F3248AB8294B3E7 /* feedback.cpp in Sources */,
+				2483CA383DAF46CCAD5638C1 /* interactive.cpp in Sources */,
+				E80F3659348E4FE28DAD1DF3 /* legacy.cpp in Sources */,
+				321FA7602F4241C1B4AA845F /* recur.cpp in Sources */,
+				13733F862CCD4E8881DCA7D6 /* rules.cpp in Sources */,
+				7709D6CB1ED84C8BBECAC2A4 /* sort.cpp in Sources */,
+				7D8AD2D8EB1E408FA14B0BD5 /* text.cpp in Sources */,
+				F77023AF168C49C7A542374B /* utf8.cpp in Sources */,
+				AE98AF7E06944DFC9D40EE13 /* util.cpp in Sources */,
+				31A34028BE744CC5BD257854 /* wcwidth6.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79B1F07C1A149A1A704E5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D3BEDD8BE413680544128 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31BE3020F7845FDA95F0A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5C41275659486A91A67717 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51E597447AF4BFEA531219C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E34BD95D31A4FB98DA66D6A /* ColDate.cpp in Sources */,
+				699EBC2585E549C6B54AB926 /* ColDepends.cpp in Sources */,
+				499C4592DCB64963AF215194 /* ColDescription.cpp in Sources */,
+				E7267BB84C36440ABE431789 /* ColDue.cpp in Sources */,
+				4BA7D5327D144954B2C5BA37 /* ColEnd.cpp in Sources */,
+				DAEB9EE29E46462892D8B58B /* ColEntry.cpp in Sources */,
+				460FA885363E4CF9BF38F526 /* ColID.cpp in Sources */,
+				D2986932CF9E4A598529860C /* ColIMask.cpp in Sources */,
+				41AFC8EB277643098D7389DB /* ColMask.cpp in Sources */,
+				ADD1901D80834B1482E032EF /* ColModified.cpp in Sources */,
+				9978882393E941DFA6C96F3F /* ColParent.cpp in Sources */,
+				CD8FD8E2CDCE4D64AF62998A /* ColPriority.cpp in Sources */,
+				D327773E88C14C4AAEAAE674 /* ColProject.cpp in Sources */,
+				2C23B8C56DA34842B8AFAE4C /* ColRecur.cpp in Sources */,
+				45C048BFF37F48DE90ABCED1 /* ColScheduled.cpp in Sources */,
+				2095E36B8E8C446F8F2CA42C /* ColStart.cpp in Sources */,
+				8B379A453FB641BABED29F52 /* ColStatus.cpp in Sources */,
+				3645834CA09045B087CB9956 /* ColString.cpp in Sources */,
+				C08BED1C31EE4D2ABC9172AC /* ColTags.cpp in Sources */,
+				A69F9E638AFA4DA9A8F82159 /* ColUDA.cpp in Sources */,
+				C77651F01AE24F439B321C39 /* ColUUID.cpp in Sources */,
+				67DBEAA781684282A9A1ACA4 /* ColUntil.cpp in Sources */,
+				14A09F628FC1447DBACFF2EC /* ColUrgency.cpp in Sources */,
+				4F9267662DAF4A34A84C3F6B /* ColWait.cpp in Sources */,
+				7FF2AD2D2DAE4600BA69EFB1 /* Column.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12F9185BFD3D4C77894A97FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A237BF8D974D49D38CA5DE8C /* ALL_BUILD */;
+			targetProxy = 00A4335A4C804F44A5DF2408 /* PBXContainerItemProxy */;
+		};
+		2A7DEB6F00994B7BAE6729DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7CB879EE034178BFF56725 /* commands */;
+			targetProxy = 0C6675BEC46C4AB380DF4300 /* PBXContainerItemProxy */;
+		};
+		2D5C094A3D774DF7860E8B06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7CB879EE034178BFF56725 /* commands */;
+			targetProxy = 4D70796E65C842178AA020B0 /* PBXContainerItemProxy */;
+		};
+		484BA881939B46A49EA86935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58AD2E1C5B9E499886DF73AB /* task_executable */;
+			targetProxy = 48203977730A4DB4AAB9754E /* PBXContainerItemProxy */;
+		};
+		4949A29EFAF34BD5B0497607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A237BF8D974D49D38CA5DE8C /* ALL_BUILD */;
+			targetProxy = E5CFEB73BC6D4554B297E0DC /* PBXContainerItemProxy */;
+		};
+		545740D2A8B74DE7BE91D2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12F9F0BFCF845F7ADD149CC /* tasksh */;
+			targetProxy = 93A13189CD824DFA94D704CF /* PBXContainerItemProxy */;
+		};
+		5610B10258AF4D8AAEFE95DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 799E636E3D364F54B53E8251 /* task */;
+			targetProxy = 78632F8703824075A2631CAB /* PBXContainerItemProxy */;
+		};
+		5C9097AFA4AC45F2AD2AC271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12F9F0BFCF845F7ADD149CC /* tasksh */;
+			targetProxy = 5A78FC57DDF342E5AF89EFCA /* PBXContainerItemProxy */;
+		};
+		68EF1B87DE114417B016ACD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */;
+			targetProxy = ABA36F3DD54047B68B91B321 /* PBXContainerItemProxy */;
+		};
+		7E02853320144CC0984C5AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */;
+			targetProxy = E54646E0E05542B096C4300F /* PBXContainerItemProxy */;
+		};
+		81B168ED604F400AAE463AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7CB879EE034178BFF56725 /* commands */;
+			targetProxy = 8EC61F7ED3574CAC988CB846 /* PBXContainerItemProxy */;
+		};
+		8292327AE9AF4FDA87D25864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */;
+			targetProxy = D6B261CF5F9C402DA0BB1AEC /* PBXContainerItemProxy */;
+		};
+		B539AD8EAEA6429BAF08CE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */;
+			targetProxy = BA13C68D6BDA4AF09CC448D2 /* PBXContainerItemProxy */;
+		};
+		C5A06613AF32496296BAD82E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */;
+			targetProxy = CCDE5CA3991F4ED0941D1896 /* PBXContainerItemProxy */;
+		};
+		CC935D7D87294D91B9A55E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CCA993A45A4FB29ACE4462 /* columns */;
+			targetProxy = 7A48C70060A94737B4B6C892 /* PBXContainerItemProxy */;
+		};
+		D656995DC9A0498087FA6D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 799E636E3D364F54B53E8251 /* task */;
+			targetProxy = B3C35945BB024F02B685997F /* PBXContainerItemProxy */;
+		};
+		E478C73C3E2345CE89C14D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */;
+			targetProxy = 158CB60F90E341ABB9879F1D /* PBXContainerItemProxy */;
+		};
+		E715D0E9925C40618C7C17F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182DFC3E54A4E4982A5E789 /* ZERO_CHECK */;
+			targetProxy = 113E968203E54EB4AEC6F16F /* PBXContainerItemProxy */;
+		};
+		E7ADC1F4392D4FBB8012B077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CCA993A45A4FB29ACE4462 /* columns */;
+			targetProxy = 15602ED0A744497BB5B916BE /* PBXContainerItemProxy */;
+		};
+		E9411F17C58F4039A0B44F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 799E636E3D364F54B53E8251 /* task */;
+			targetProxy = 261A563B285A447A8092822C /* PBXContainerItemProxy */;
+		};
+		EECAD350F6124D458D74BC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2224D4B1BDF4F65A1A93D1C /* tasksh_executable */;
+			targetProxy = 0880C736B42B49988DD3F231 /* PBXContainerItemProxy */;
+		};
+		F051C1B5DE404533957A4206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CCA993A45A4FB29ACE4462 /* columns */;
+			targetProxy = D8A744216F1F4F9295B19B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018840FBF70B4DFDA4EEB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/shell",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/Debug/libtask.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands/Debug/libcommands.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns/Debug/libcolumns.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell/Debug/libtasksh.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/Debug/libtask.a",
+					/usr/lib/libreadline.dylib,
+					/usr/lib/libncurses.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tasksh;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		01E3040CFD4742EB8C7ABD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = columns;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		086D68603886449393A87644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		11CDE2C5945C427FA3B9F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/Release/libtask.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands/Release/libcommands.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns/Release/libcolumns.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/Release/libtask.a",
+					/usr/lib/libreadline.dylib,
+					/usr/lib/libncurses.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = task;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		1C761C4B989E430AA551F77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = /private_headers;
+				PRODUCT_NAME = task;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		1EBC758135B84157A7DB127A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		245CDE09F015419D9A009FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		2AA0696E114B4F48B97B9485 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		360E3D69897C478C80BCF860 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		45D281059E24414CB76761AB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		47878DC78DDC42DCBF87FCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/shell",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/Release/libtask.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands/Release/libcommands.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns/Release/libcolumns.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell/Release/libtasksh.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/Release/libtask.a",
+					/usr/lib/libreadline.dylib,
+					/usr/lib/libncurses.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tasksh;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		4F3DA775D2534D3197AD71BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		5332539553EA4268B194DEC3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/shell",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tasksh;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		54455D069A2C4D86BDC9EA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/private_headers;
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/task;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/build";
+			};
+			name = Release;
+		};
+		56E53DA77D534785A9154483 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/private_headers;
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/task;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5E90D5A23CC24217947080DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = commands;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		6764F92B6F314B9B8EF56A40 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = columns;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		6CDDEBDA09AF4C7A875CD448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/shell",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tasksh;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		71CE786A6110409CAA9A7199 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		728B39A3ABD14625B6EA1BE2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = /private_headers;
+				PRODUCT_NAME = task;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		7ADDA9FB647C43FF92352037 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/shell",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/RelWithDebInfo/libtask.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands/RelWithDebInfo/libcommands.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns/RelWithDebInfo/libcolumns.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell/RelWithDebInfo/libtasksh.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/RelWithDebInfo/libtask.a",
+					/usr/lib/libreadline.dylib,
+					/usr/lib/libncurses.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tasksh;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7D18E72F8F0342B7ADBCEE58 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/shell",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/MinSizeRel/libtask.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands/MinSizeRel/libcommands.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns/MinSizeRel/libcolumns.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell/MinSizeRel/libtasksh.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/MinSizeRel/libtask.a",
+					/usr/lib/libreadline.dylib,
+					/usr/lib/libncurses.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tasksh;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		80CBCB8215B648FE9304757F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		851C908FC6B34DBA857615D9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = commands;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		94777B83E699437896398BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		9624C0AC29134D50929EF0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = /private_headers;
+				PRODUCT_NAME = task;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		9F5EB9F1F6BB4E629A8EAAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		A46B9299842D472A9BBBD489 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/private_headers;
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/task;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/build";
+			};
+			name = MinSizeRel;
+		};
+		AD9AFA2A2AB24BB499F3FDD7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = columns;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		B3D092DA151F45EDBD9AE223 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		BC1AD24E3446457193761E36 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/MinSizeRel/libtask.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands/MinSizeRel/libcommands.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns/MinSizeRel/libcolumns.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/MinSizeRel/libtask.a",
+					/usr/lib/libreadline.dylib,
+					/usr/lib/libncurses.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = task;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C39BC7CE3F1C47FD8AD39E0E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/shell",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tasksh;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C6703A98F93D4FC7921F3105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = commands;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		C7891FC498AF47438E5229E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = columns;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		CAA407082EBD4EFA8806CDFE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/RelWithDebInfo/libtask.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands/RelWithDebInfo/libcommands.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns/RelWithDebInfo/libcolumns.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/RelWithDebInfo/libtask.a",
+					/usr/lib/libreadline.dylib,
+					/usr/lib/libncurses.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = task;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		D0956B26585840F19C32CE93 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		D835706D5DDA44048158BA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/private_headers;
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/task;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/build";
+			};
+			name = Debug;
+		};
+		E12B95E2771F41A7A89B2E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/Debug/libtask.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands/Debug/libcommands.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/columns/Debug/libcolumns.a",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/Debug/libtask.a",
+					/usr/lib/libreadline.dylib,
+					/usr/lib/libncurses.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = task;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		E1C96B927D4D4B06A80957CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/shell",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tasksh;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/shell";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		EDB4E87BBD5F4972BB551D73 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = /private_headers;
+				PRODUCT_NAME = task;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		F4AF8C9FB28841C6B7F6E94C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/commands",
+					"/Users/david/src/taskwarrior-ios/taskwarrior.org/task/src/columns",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = commands;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/src/commands";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		F4E70B4866A043B6A89463CE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		F83AACC5CD88482DA31D5352 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		FB4CE81C9961453AA6EA19E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B18A897C5F44FFEBF379FAE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245CDE09F015419D9A009FAC /* Debug */,
+				1EBC758135B84157A7DB127A /* Release */,
+				D0956B26585840F19C32CE93 /* MinSizeRel */,
+				71CE786A6110409CAA9A7199 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		41C5ED64D1554650BE10FFDD /* Build configuration list for PBXProject "task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D835706D5DDA44048158BA7B /* Debug */,
+				54455D069A2C4D86BDC9EA55 /* Release */,
+				A46B9299842D472A9BBBD489 /* MinSizeRel */,
+				56E53DA77D534785A9154483 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4FA0A64B5D3D407887855EBD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CBCB8215B648FE9304757F /* Debug */,
+				FB4CE81C9961453AA6EA19E6 /* Release */,
+				45D281059E24414CB76761AB /* MinSizeRel */,
+				2AA0696E114B4F48B97B9485 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A60352F12834EC5B1E529E7 /* Build configuration list for PBXNativeTarget "commands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6703A98F93D4FC7921F3105 /* Debug */,
+				5E90D5A23CC24217947080DE /* Release */,
+				851C908FC6B34DBA857615D9 /* MinSizeRel */,
+				F4AF8C9FB28841C6B7F6E94C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A6D8AE3732E4717ACC094FA /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3DA775D2534D3197AD71BF /* Debug */,
+				94777B83E699437896398BB5 /* Release */,
+				360E3D69897C478C80BCF860 /* MinSizeRel */,
+				F83AACC5CD88482DA31D5352 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B40B077066447E5B42EAFAF /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086D68603886449393A87644 /* Debug */,
+				9F5EB9F1F6BB4E629A8EAAEA /* Release */,
+				B3D092DA151F45EDBD9AE223 /* MinSizeRel */,
+				F4E70B4866A043B6A89463CE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92DD1338BFCE464EA0B95ADB /* Build configuration list for PBXNativeTarget "task_executable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12B95E2771F41A7A89B2E66 /* Debug */,
+				11CDE2C5945C427FA3B9F54C /* Release */,
+				BC1AD24E3446457193761E36 /* MinSizeRel */,
+				CAA407082EBD4EFA8806CDFE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B09A9671736D4BCC8073DC06 /* Build configuration list for PBXNativeTarget "columns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7891FC498AF47438E5229E8 /* Debug */,
+				01E3040CFD4742EB8C7ABD24 /* Release */,
+				AD9AFA2A2AB24BB499F3FDD7 /* MinSizeRel */,
+				6764F92B6F314B9B8EF56A40 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B206E351B4754C6CB82408E2 /* Build configuration list for PBXNativeTarget "tasksh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C96B927D4D4B06A80957CB /* Debug */,
+				6CDDEBDA09AF4C7A875CD448 /* Release */,
+				C39BC7CE3F1C47FD8AD39E0E /* MinSizeRel */,
+				5332539553EA4268B194DEC3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E92A4A36230146DE81EE0585 /* Build configuration list for PBXNativeTarget "tasksh_executable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018840FBF70B4DFDA4EEB6D0 /* Debug */,
+				47878DC78DDC42DCBF87FCCB /* Release */,
+				7D18E72F8F0342B7ADBCEE58 /* MinSizeRel */,
+				7ADDA9FB647C43FF92352037 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F67D2988157E4FCB8BCEE3A1 /* Build configuration list for PBXNativeTarget "task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9624C0AC29134D50929EF0EF /* Debug */,
+				1C761C4B989E430AA551F77C /* Release */,
+				728B39A3ABD14625B6EA1BE2 /* MinSizeRel */,
+				EDB4E87BBD5F4972BB551D73 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF4AE03C8484746AC104BA4 /* Project object */;
+}

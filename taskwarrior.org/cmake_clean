@@ -1,0 +1,7 @@
+rm -rf /Users/david/src/taskwarrior-ios/taskwarrior.org/task/cmake_install.cmake
+rm -rf /Users/david/src/taskwarrior-ios/taskwarrior.org/task/cmake.h
+rm -rf /Users/david/src/taskwarrior-ios/taskwarrior.org/task/CMakeCache.txt
+rm -rf /Users/david/src/taskwarrior-ios/taskwarrior.org/task/CMakeFiles
+rm -rf /Users/david/src/taskwarrior-ios/taskwarrior.org/task/CPackConfig.cmake
+rm -rf /Users/david/src/taskwarrior-ios/taskwarrior.org/task/CPackSourceConfig.cmake
+rm -rf /Users/david/src/taskwarrior-ios/taskwarrior.org/task/Makefile

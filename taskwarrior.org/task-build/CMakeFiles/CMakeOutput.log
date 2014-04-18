@@ -1,0 +1,573 @@
+The system is: Darwin - 13.1.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2014-05-03 18:55:49.296 xcodebuild[43616:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:49.297 xcodebuild[43616:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:49.299 xcodebuild[43616:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:49.299 xcodebuild[43616:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+
+Ld CompilerIdC normal i386
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC
+    /bin/sh -c /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is Clang, found in "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2014-05-03 18:55:49.813 xcodebuild[43627:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:49.815 xcodebuild[43627:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:49.817 xcodebuild[43627:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:49.818 xcodebuild[43627:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX normal i386
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX
+    /bin/sh -c /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is Clang, found in "/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2894258710 -configuration Debug
+2014-05-03 18:55:50.349 xcodebuild[43644:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:50.350 xcodebuild[43644:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:50.351 xcodebuild[43644:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:50.352 xcodebuild[43644:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2894258710 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/Objects-normal/x86_64/cmTryCompileExec2894258710.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTryCompileExec2894258710 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/Objects-normal/x86_64/cmTryCompileExec2894258710.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2894258710.build/Objects-normal/x86_64/cmTryCompileExec2894258710_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2894258710
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec104649013 -configuration Debug
+2014-05-03 18:55:50.852 xcodebuild[43658:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:50.853 xcodebuild[43658:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:50.854 xcodebuild[43658:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:50.855 xcodebuild[43658:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec104649013 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec104649013 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList -mmacosx-version-min=10.9 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec104649013
+Apple LLVM version 5.1 (clang-503.0.38) (based on LLVM 3.4svn)
+Target: x86_64-apple-darwin13.1.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec104649013 -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-236.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
+Library search paths:
+	/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
+Framework search paths:
+	/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec104649013 -configuration Debug]
+  ignore line: [2014-05-03 18:55:50.852 xcodebuild[43658:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2014-05-03 18:55:50.853 xcodebuild[43658:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2014-05-03 18:55:50.854 xcodebuild[43658:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2014-05-03 18:55:50.855 xcodebuild[43658:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [=== BUILD TARGET cmTryCompileExec104649013 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTryCompileExec104649013 normal x86_64]
+  ignore line: [    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.9]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList -mmacosx-version-min=10.9 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec104649013]
+  ignore line: [Apple LLVM version 5.1 (clang-503.0.38) (based on LLVM 3.4svn)]
+  ignore line: [Target: x86_64-apple-darwin13.1.0]
+  ignore line: [Thread model: posix]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec104649013 -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec104649013 -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec104649013 -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.9.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec104649013] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013.LinkFileList] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec104649013.build/Objects-normal/x86_64/cmTryCompileExec104649013_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  Framework search paths: [;/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  collapse framework dir [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3228076216 -configuration Debug
+2014-05-03 18:55:51.335 xcodebuild[43672:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:51.337 xcodebuild[43672:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:51.338 xcodebuild[43672:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:51.338 xcodebuild[43672:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec3228076216 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/Objects-normal/x86_64/cmTryCompileExec3228076216.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTryCompileExec3228076216 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/Objects-normal/x86_64/cmTryCompileExec3228076216.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3228076216.build/Objects-normal/x86_64/cmTryCompileExec3228076216_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3228076216
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2648005340 -configuration Debug
+2014-05-03 18:55:51.789 xcodebuild[43686:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:51.790 xcodebuild[43686:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:51.791 xcodebuild[43686:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:51.792 xcodebuild[43686:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2648005340 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec2648005340 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList -mmacosx-version-min=10.9 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2648005340
+Apple LLVM version 5.1 (clang-503.0.38) (based on LLVM 3.4svn)
+Target: x86_64-apple-darwin13.1.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2648005340 -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-236.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
+Library search paths:
+	/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
+Framework search paths:
+	/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2648005340 -configuration Debug]
+  ignore line: [2014-05-03 18:55:51.789 xcodebuild[43686:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2014-05-03 18:55:51.790 xcodebuild[43686:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2014-05-03 18:55:51.791 xcodebuild[43686:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2014-05-03 18:55:51.792 xcodebuild[43686:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [=== BUILD TARGET cmTryCompileExec2648005340 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTryCompileExec2648005340 normal x86_64]
+  ignore line: [    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.9]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList -mmacosx-version-min=10.9 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2648005340]
+  ignore line: [Apple LLVM version 5.1 (clang-503.0.38) (based on LLVM 3.4svn)]
+  ignore line: [Target: x86_64-apple-darwin13.1.0]
+  ignore line: [Thread model: posix]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2648005340 -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2648005340 -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2648005340 -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.9.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2648005340] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340.LinkFileList] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2648005340.build/Objects-normal/x86_64/cmTryCompileExec2648005340_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  Framework search paths: [;/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  collapse framework dir [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+
+
+Determining if the function timegm exists passed with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1752168086 -configuration Debug
+2014-05-03 18:55:53.251 xcodebuild[43702:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:53.253 xcodebuild[43702:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:53.254 xcodebuild[43702:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:53.254 xcodebuild[43702:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1752168086 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/Objects-normal/x86_64/cmTryCompileExec1752168086.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=timegm -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CheckFunctionExists.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec1752168086 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/Objects-normal/x86_64/cmTryCompileExec1752168086.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1752168086.build/Objects-normal/x86_64/cmTryCompileExec1752168086_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1752168086
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function wordexp exists passed with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2323387683 -configuration Debug
+2014-05-03 18:55:54.139 xcodebuild[43730:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:54.141 xcodebuild[43730:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:54.142 xcodebuild[43730:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:54.143 xcodebuild[43730:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2323387683 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/Objects-normal/x86_64/cmTryCompileExec2323387683.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=wordexp -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CheckFunctionExists.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2323387683 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/Objects-normal/x86_64/cmTryCompileExec2323387683.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2323387683.build/Objects-normal/x86_64/cmTryCompileExec2323387683_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2323387683
+
+** BUILD SUCCEEDED **
+
+
+
+Performing C SOURCE FILE Test HAVE_TM_GMTOFF succeded with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1246178581 -configuration Debug
+2014-05-03 18:55:54.584 xcodebuild[43744:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:54.586 xcodebuild[43744:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:54.587 xcodebuild[43744:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:54.588 xcodebuild[43744:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1246178581 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/Objects-normal/x86_64/cmTryCompileExec1246178581.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -DHAVE_TM_GMTOFF -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/Objects-normal/x86_64/src.dia -c /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/Objects-normal/x86_64/src.o
+/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c:7:9: warning: expression result unused [-Wunused-value]
+   tmp->tm_gmtoff;
+   ~~~  ^~~~~~~~~
+/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c:7:4: warning: variable 'tmp' is uninitialized when used here [-Wuninitialized]
+   tmp->tm_gmtoff;
+   ^~~
+/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c:6:18: note: initialize the variable 'tmp' to silence this warning
+   struct tm* tmp;
+                 ^
+                  = NULL
+2 warnings generated.
+
+Ld Debug/cmTryCompileExec1246178581 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/Objects-normal/x86_64/cmTryCompileExec1246178581.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1246178581.build/Objects-normal/x86_64/cmTryCompileExec1246178581_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1246178581
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   struct tm* tmp;
+   tmp->tm_gmtoff;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_ST_BIRTHTIME succeded with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2070703715 -configuration Debug
+2014-05-03 18:55:55.041 xcodebuild[43759:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:55.043 xcodebuild[43759:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:55.043 xcodebuild[43759:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:55.044 xcodebuild[43759:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2070703715 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/Objects-normal/x86_64/cmTryCompileExec2070703715.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -DHAVE_ST_BIRTHTIME -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/Objects-normal/x86_64/src.dia -c /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/Objects-normal/x86_64/src.o
+/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c:8:9: warning: expression result unused [-Wunused-value]
+   tmp->st_birthtime;
+   ~~~~~^~~~~~~~~~~~
+In file included from /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c:3:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/sys/stat.h:234:39: note: expanded from macro 'st_birthtime'
+#define st_birthtime st_birthtimespec.tv_sec
+                                      ^~~~~~
+/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c:8:4: warning: variable 'tmp' is uninitialized when used here [-Wuninitialized]
+   tmp->st_birthtime;
+   ^~~
+/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/src.c:7:20: note: initialize the variable 'tmp' to silence this warning
+   struct stat* tmp;
+                   ^
+                    = 0
+2 warnings generated.
+
+Ld Debug/cmTryCompileExec2070703715 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/Objects-normal/x86_64/cmTryCompileExec2070703715.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2070703715.build/Objects-normal/x86_64/cmTryCompileExec2070703715_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2070703715
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+   struct stat* tmp;
+   tmp->st_birthtime;
+  return 0;
+}
+
+Determining if the function uuid_unparse_lower exists passed with the following output:
+Change Dir: /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.12.2/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec712466094 -configuration Debug
+2014-05-03 18:55:55.499 xcodebuild[43774:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CustomizeWarningErrorHighlights.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:55.501 xcodebuild[43774:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XCFixin_CurrentLineHighlighter.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:55.502 xcodebuild[43774:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2014-05-03 18:55:55.502 xcodebuild[43774:1007] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec712466094 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/Objects-normal/x86_64
+write-file /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/Objects-normal/x86_64/cmTryCompileExec712466094.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/DerivedSources/x86_64 -I/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=uuid_unparse_lower -MMD -MT dependencies -MF /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.12.2/share/cmake/Modules/CheckFunctionExists.c -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec712466094 normal x86_64
+    cd /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.9
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -F/Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/Objects-normal/x86_64/cmTryCompileExec712466094.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec712466094.build/Objects-normal/x86_64/cmTryCompileExec712466094_dependency_info.dat -o /Users/david/src/taskwarrior-ios/taskwarrior.org/task-build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec712466094
+
+** BUILD SUCCEEDED **
+
+
+

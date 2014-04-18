@@ -1,0 +1,175 @@
+.TH task-sync 5 2014-01-15 "task 2.3.0" "User Manuals"
+
+.SH NAME
+task-sync \- A discussion and tutorial for the various task(1) data
+synchronization capabilities.
+
+.SH INTRODUCTION
+Taskwarrior has several sync options, external and internal.  If you wish to
+sync your data, choose one method only; mixing methods is only going to lead to
+problems.  Each of the methods discussed have their own strengths.
+
+.SH ALTERNATIVES
+There are three alternatives for syncing data, which are:
+
+1) Version control systems, such as git, hg, svn
+.br
+2) File hosting systems, such as DropBox
+.br
+3) Using the Taskserver and the 'sync' command
+
+
+.SH OPTION 1: VERSION CONTROL SYSTEMS
+There are several good, distributed VCS systems (git, hg, ...) and centralized
+VCS systems (svn ...), and they function in a similar fashion for our purposes.
+
+Setup is straightforward.  You place your .task directory under revision
+control.  You then need to perform a regular commit/push/pull/update to make
+sure that the data is propagated when needed.  You can even do this using shell
+scripts so that every task command is preceded by a 'pull' and followed by a
+'push'.
+
+Strengths:
+.br
+  - Good data transport mechanisms
+.br
+  - Secure transport options
+
+Weaknesses:
+.br
+  - You need proficiency with VCS tools
+.br
+  - You will need to manually resolve conflicts frequently
+.br
+  - You need to provide the mechanism for making sure copies are up to date
+
+
+.SH OPTION 2: FILE HOSTING SERVICES
+There are many file hosting services, such as DropBox, Amazon S3, Google Drive,
+SkyDrive and more.  This technique involves storing your .task directory in a
+shared directory under the control of the file hosting services.
+
+Syncing happens quickly, although it is possible to run into conflict situations
+when there is no network connectivity, and the tasks are modified in two
+separate locations.  This is because the file hosting service knows only about
+files, and it has no idea how to merge tasks.  Avoid this problem by never
+modifying the same task on two machines, without an intervening sync.
+
+Setup simply involves creating the directory and modifying your data.location
+configuration variable like this:
+
+    $ task config data.location /path/to/shared/directory
+
+Strengths:
+.br
+  - Always secure
+.br
+  - Good client support
+.br
+  - Easy setup
+.br
+  - Transparent use
+
+Weaknesses:
+.br
+  - Tasks are not properly merged
+
+
+.SH OPTION 3: TASKSERVER
+The Taskserver was designed for this purpose to be secure, fast and conflict
+free, allowing data interchange between assorted Taskwarrior clients, and
+tolerant of network connectivity problems.
+
+There is a 'sync' command built in to Taskwarrior, and with a server account
+and client configuration, syncing is done on demand.
+
+Setup is a matter of creating an account on a Taskserver (see your Taskserver
+provider or operate your own - see
+http://taskwarrior.org/projects/taskwarrior/wiki/Server_setup)
+
+Once you have an account, you'll receive a certificate, key and a password.
+You'll need to put the certificate and key somewhere like this:
+
+    $ cp <name>.cert.pem ~/.task
+    $ cp <name>.key.pem ~/.task
+
+Then you configure Taskwarrior, using the account details:
+
+    $ task config taskd.certificate ~/.task/<name>.cert.pem
+    $ task config taskd.key         ~/.task/<name>.key.pem
+    $ task config taskd.credentials <organization>/<name>/<password>
+    $ task config taskd.server      <server domain>:<port>
+
+If you are using a private server, you are likely also using a self-signed
+certificate, which means you will need one of the following additional entries:
+
+    $ task config taskd.ca          ~/.task/ca.cert.pem
+
+The CA (Certificate Authority) will be used to verify the server certificate.
+Alternatively, you can override the cert verification process using:
+
+    $ task config taskd.trust       yes
+
+This is an insecure option that should be used with caution, because it directs
+Taskwarrior to trust any certificate.
+
+After setup, you run a one-time sync initialization, like this:
+
+    $ task sync initialize
+
+This will make sure your client and the server are properly in sync to begin
+with.  From this point on, you never run the 'initialize' command again, just
+go about your business, and when you want to sync, run this:
+
+    $ task sync
+
+You'll see a summary of how many tasks were uploaded and downloaded.  You can
+safely run the command as often as you like.  When there are no changes to sync,
+nothing happens.  If you do not have connectivity, your task changes accumulate
+so that when you next run 'sync' with proper connectivity, the changes are
+properly handled, in the right order.
+
+Strengths:
+.br
+  - Always secure
+.br
+  - Minimal bandwidth
+.br
+  - Tolerates connectivity outage
+
+Weaknesses:
+.br
+  - You need to manage your own server, or gain access to a hosted server.
+
+.SH "CREDITS & COPYRIGHTS"
+Copyright (C) 2006 \- 2014 P. Beckingham, F. Hernandez.
+
+Taskwarrior is distributed under the MIT license. See
+http://www.opensource.org/licenses/mit-license.php for more information.
+
+.SH SEE ALSO
+.BR task(1),
+.BR tasksh(1),
+.BR taskrc(5),
+.BR task-faq(5),
+.BR task-color(5),
+.BR task-tutorial(5),
+
+For more information regarding task, the following may be referenced:
+
+.TP
+The official site at
+<http://taskwarrior.org>
+
+.TP
+The official code repository at
+<git://tasktools.org/task.git/>
+
+.TP
+You can contact the project by writing an email to
+<support@taskwarrior.org>
+
+.SH REPORTING BUGS
+.TP
+Bugs in task may be reported to the issue-tracker at
+<http://taskwarrior.org>

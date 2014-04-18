@@ -22,9 +22,9 @@
     <key>CFBundleDisplayName</key>
     <string>${PRODUCT_NAME}</string>
     <key>CFBundleVersion</key>
-    <string>1.0</string>
+    <string>0</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.0</string>
+    <string>0.0.1</string>
     <key>LSRequiresIPhoneOS</key>
     <true/>
     <key>UIRequiredDeviceCapabilities</key>

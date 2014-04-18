@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AF0E0A6E7536B2674D83D8B /* HHTaskWarriorContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E45943EC44769E14BF06 /* HHTaskWarriorContext.mm */; };
 		5AF0E2273ABBFCB1732B64B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AF0E03217336D2F933F8213 /* InfoPlist.strings */; };
+		5AF0E2CC3C59EC141ADA39EE /* HHTerminalTableViewCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E54932B07989EA778646 /* HHTerminalTableViewCell.mm */; };
 		5AF0E34DBF3A36EBA8AC0C86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0E2D543E5075FDDB7D11C /* UIKit.framework */; };
 		5AF0E44F99A033BB977229DF /* taskwarriorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0ED5E7BA32B4F1AD47652 /* taskwarriorTests.m */; };
+		5AF0E6331CCC24EA33351CD1 /* HHTaskTableViewCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EFA2BA67E99A763F0588 /* HHTaskTableViewCell.mm */; };
+		5AF0E676EB6AA0131296B2F9 /* HHTaskViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EC80761280703A52F437 /* HHTaskViewController.mm */; };
+		5AF0E7B0B48B1120D66EA7D0 /* HHTaskFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EC419F330F919363E7D0 /* HHTaskFile.mm */; };
 		5AF0E8071AACBA428FFAF605 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0EBE18544EC62FE41A0B4 /* XCTest.framework */; };
 		5AF0E81AB90D1AAFC1207944 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0E2D543E5075FDDB7D11C /* UIKit.framework */; };
 		5AF0E8912B0888948D29871B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0EFE4EA99125070A920A8 /* Foundation.framework */; };
+		5AF0E8E4D182C0854F9564A9 /* HHTerminalCommandLine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EB69B4C74CC63FC3A14D /* HHTerminalCommandLine.mm */; };
 		5AF0EB2E4201C001BCF37EBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EF31561B771E6081C6C8 /* main.m */; };
+		5AF0EB4FCE74593FB4F82C2F /* OutputStringBuf.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E3CEA55F2E2B70739B6F /* OutputStringBuf.mm */; };
 		5AF0EC0557D0E80D81A8CC4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF0EC029D38B35B45A95C51 /* Images.xcassets */; };
+		5AF0EC46E934E7515BEFDF60 /* HHTaskTableViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0ED72AA1F8520CEAC3850 /* HHTaskTableViewDataSource.mm */; };
 		5AF0ED10C8B082B2AC0B16A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0E183F6A93A0AE5172AED /* CoreGraphics.framework */; };
-		5AF0EE213D1A420FC8B4E5E3 /* HHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E1EA685C36245CD3973A /* HHAppDelegate.m */; };
+		5AF0EE213D1A420FC8B4E5E3 /* HHAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E1EA685C36245CD3973A /* HHAppDelegate.mm */; };
+		5AF0EE59FF782D3398F4E4C5 /* InputStringBuf.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EA519DA86CA9ADF8A53A /* InputStringBuf.cc */; };
+		5AF0EE757FB98A620798B3E6 /* HHTaskTerminalDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E60C52D24E666CF51723 /* HHTaskTerminalDataSource.mm */; };
 		5AF0EF0ED21F7B12D823DE72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0EFE4EA99125070A920A8 /* Foundation.framework */; };
 		5AF0EF6D8C799376275490F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AF0EA7CEFE266711D6661AB /* InfoPlist.strings */; };
+		5AF0EF7944698AFC4DED1165 /* HHTerminalView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EA0CD6FE86669CBBC2AC /* HHTerminalView.mm */; };
+		5AF0EFCFA12E2A184C1173FB /* HHTask.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E97E12D84973B4ECC00A /* HHTask.mm */; };
+		631DDF84190185ED005F8E25 /* .taskrc in Resources */ = {isa = PBXBuildFile; fileRef = 631DDF83190185D6005F8E25 /* .taskrc */; };
+		632FE0391917306900930FCE /* libcolumns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 632FE0361917306900930FCE /* libcolumns.a */; };
+		632FE03A1917306900930FCE /* libcommands.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 632FE0371917306900930FCE /* libcommands.a */; };
+		632FE03B1917306900930FCE /* libtask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 632FE0381917306900930FCE /* libtask.a */; };
+		639A82F21918A3E300D023C6 /* AMR_ANSIEscapeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 639A82F11918A3E300D023C6 /* AMR_ANSIEscapeHelper.m */; };
+		F79BEE20F43E41E3B5EC7A92 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF16C1C8E04E3E8F628719 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +50,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52FF16C1C8E04E3E8F628719 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF0E03B2786931F35EE27D7 /* HHTerminalViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTerminalViewDelegate.h; sourceTree = "<group>"; };
+		5AF0E07655871D259370BAE0 /* HHTerminalCommandLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTerminalCommandLine.h; sourceTree = "<group>"; };
 		5AF0E117533424D2FBE62C9F /* taskwarrior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskwarrior.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF0E183F6A93A0AE5172AED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5AF0E1EA685C36245CD3973A /* HHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAppDelegate.m; sourceTree = "<group>"; };
+		5AF0E1EA685C36245CD3973A /* HHAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HHAppDelegate.mm; sourceTree = "<group>"; };
+		5AF0E2206356A14144727946 /* HHTaskFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTaskFile.h; sourceTree = "<group>"; };
 		5AF0E29421F2B3BC5963E92E /* taskwarriorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "taskwarriorTests-Info.plist"; sourceTree = "<group>"; };
 		5AF0E2D543E5075FDDB7D11C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AF0E3CEA55F2E2B70739B6F /* OutputStringBuf.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OutputStringBuf.mm; sourceTree = "<group>"; };
+		5AF0E3DEF07EF535FB9F5D27 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = SOURCE_ROOT; };
+		5AF0E40FCD1FAA52BA39188F /* HHTerminalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTerminalView.h; sourceTree = "<group>"; };
+		5AF0E45943EC44769E14BF06 /* HHTaskWarriorContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTaskWarriorContext.mm; sourceTree = "<group>"; };
 		5AF0E4D2B0982B858503E5A4 /* taskwarrior-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "taskwarrior-Info.plist"; sourceTree = "<group>"; };
+		5AF0E54932B07989EA778646 /* HHTerminalTableViewCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTerminalTableViewCell.mm; sourceTree = "<group>"; };
+		5AF0E5AB8EBA0B7202CDE73D /* HHTaskTerminalDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTaskTerminalDataSource.h; sourceTree = "<group>"; };
+		5AF0E60C52D24E666CF51723 /* HHTaskTerminalDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTaskTerminalDataSource.mm; sourceTree = "<group>"; };
 		5AF0E647A30FCA9382A90BFD /* HHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAppDelegate.h; sourceTree = "<group>"; };
+		5AF0E648A69EB0ADAE15CA2B /* HHLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLog.h; sourceTree = "<group>"; };
+		5AF0E65102D9AFF24F6AA842 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		5AF0E674E2CB34DF1C42F4EA /* HHTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTask.h; sourceTree = "<group>"; };
+		5AF0E6B221C369CCCEC1E645 /* HHTaskWarriorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTaskWarriorContext.h; sourceTree = "<group>"; };
+		5AF0E6F1DB869E6859FBAD7D /* HHTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTaskViewController.h; sourceTree = "<group>"; };
 		5AF0E86D470DE4233B67CFE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AF0E97E12D84973B4ECC00A /* HHTask.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTask.mm; sourceTree = "<group>"; };
 		5AF0E9EA15C1D692B18ECD5D /* taskwarrior-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "taskwarrior-Prefix.pch"; sourceTree = "<group>"; };
+		5AF0EA0CD6FE86669CBBC2AC /* HHTerminalView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTerminalView.mm; sourceTree = "<group>"; };
+		5AF0EA519DA86CA9ADF8A53A /* InputStringBuf.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputStringBuf.cc; sourceTree = "<group>"; };
 		5AF0EAFFB0ECA6B76B70B8F4 /* taskwarriorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taskwarriorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF0EB4102D842B8059A81D8 /* HHTerminalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTerminalTableViewCell.h; sourceTree = "<group>"; };
+		5AF0EB44F9B26EAC490F150E /* HHTaskTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTaskTableViewDataSource.h; sourceTree = "<group>"; };
+		5AF0EB69B4C74CC63FC3A14D /* HHTerminalCommandLine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTerminalCommandLine.mm; sourceTree = "<group>"; };
 		5AF0EBE18544EC62FE41A0B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5AF0EBEA3A377A8FADBEDD30 /* InputStringBuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputStringBuf.h; sourceTree = "<group>"; };
 		5AF0EC029D38B35B45A95C51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AF0EC419F330F919363E7D0 /* HHTaskFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTaskFile.mm; sourceTree = "<group>"; };
+		5AF0EC68ACF4B7A0C51F6D68 /* HHTerminalViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTerminalViewDataSource.h; sourceTree = "<group>"; };
+		5AF0EC80761280703A52F437 /* HHTaskViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTaskViewController.mm; sourceTree = "<group>"; };
 		5AF0ED5E7BA32B4F1AD47652 /* taskwarriorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taskwarriorTests.m; sourceTree = "<group>"; };
+		5AF0ED6CFC45399B4796F1AE /* OutputStringBuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputStringBuf.h; sourceTree = "<group>"; };
+		5AF0ED72AA1F8520CEAC3850 /* HHTaskTableViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTaskTableViewDataSource.mm; sourceTree = "<group>"; };
+		5AF0EDB2ED7652E2145EE52C /* HHTaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTaskTableViewCell.h; sourceTree = "<group>"; };
 		5AF0EEC2C0B22D8CDA1FD12E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AF0EF31561B771E6081C6C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AF0EFA2BA67E99A763F0588 /* HHTaskTableViewCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HHTaskTableViewCell.mm; sourceTree = "<group>"; };
 		5AF0EFE4EA99125070A920A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		631DDF83190185D6005F8E25 /* .taskrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .taskrc; sourceTree = "<group>"; };
+		632FE0361917306900930FCE /* libcolumns.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcolumns.a; path = "../../Library/Developer/Xcode/DerivedData/taskwarrior-ios-bznvawadrguemngtddkkvjcmwoxt/Build/Products/Debug-iphonesimulator/libcolumns.a"; sourceTree = "<group>"; };
+		632FE0371917306900930FCE /* libcommands.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcommands.a; path = "../../Library/Developer/Xcode/DerivedData/taskwarrior-ios-bznvawadrguemngtddkkvjcmwoxt/Build/Products/Debug-iphonesimulator/libcommands.a"; sourceTree = "<group>"; };
+		632FE0381917306900930FCE /* libtask.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtask.a; path = "../../Library/Developer/Xcode/DerivedData/taskwarrior-ios-bznvawadrguemngtddkkvjcmwoxt/Build/Products/Debug-iphonesimulator/libtask.a"; sourceTree = "<group>"; };
+		639A82F01918A3E300D023C6 /* AMR_ANSIEscapeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMR_ANSIEscapeHelper.h; sourceTree = "<group>"; };
+		639A82F11918A3E300D023C6 /* AMR_ANSIEscapeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMR_ANSIEscapeHelper.m; sourceTree = "<group>"; };
+		A357558DC4154259970B0322 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +110,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632FE0391917306900930FCE /* libcolumns.a in Frameworks */,
+				632FE03A1917306900930FCE /* libcommands.a in Frameworks */,
+				632FE03B1917306900930FCE /* libtask.a in Frameworks */,
 				5AF0EF0ED21F7B12D823DE72 /* Foundation.framework in Frameworks */,
 				5AF0ED10C8B082B2AC0B16A8 /* CoreGraphics.framework in Frameworks */,
 				5AF0E81AB90D1AAFC1207944 /* UIKit.framework in Frameworks */,
+				F79BEE20F43E41E3B5EC7A92 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,20 +136,26 @@
 		5AF0E2820DA8A5AF8F9FF476 = {
 			isa = PBXGroup;
 			children = (
+				639A82EF1918A2F700D023C6 /* External */,
 				5AF0ED4DB7E61CFBDA9D7FE8 /* Products */,
 				5AF0E39A3A3FCB61127A0877 /* Frameworks */,
 				5AF0EBF37DFF478F703BABD3 /* taskwarrior-ios */,
 				5AF0EFA6A74DCCF315F2CEEE /* taskwarriorTests */,
+				A357558DC4154259970B0322 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		5AF0E39A3A3FCB61127A0877 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				632FE0361917306900930FCE /* libcolumns.a */,
+				632FE0371917306900930FCE /* libcommands.a */,
+				632FE0381917306900930FCE /* libtask.a */,
 				5AF0EFE4EA99125070A920A8 /* Foundation.framework */,
 				5AF0E183F6A93A0AE5172AED /* CoreGraphics.framework */,
 				5AF0E2D543E5075FDDB7D11C /* UIKit.framework */,
 				5AF0EBE18544EC62FE41A0B4 /* XCTest.framework */,
+				52FF16C1C8E04E3E8F628719 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,21 +163,75 @@
 		5AF0E4735D63A839CDF415A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5AF0EC029D38B35B45A95C51 /* Images.xcassets */,
+				631DDF83190185D6005F8E25 /* .taskrc */,
 				5AF0E4D2B0982B858503E5A4 /* taskwarrior-Info.plist */,
 				5AF0E03217336D2F933F8213 /* InfoPlist.strings */,
 				5AF0EF31561B771E6081C6C8 /* main.m */,
 				5AF0E9EA15C1D692B18ECD5D /* taskwarrior-Prefix.pch */,
+				5AF0E648A69EB0ADAE15CA2B /* HHLog.h */,
+				5AF0E3DEF07EF535FB9F5D27 /* LICENSE.txt */,
+				5AF0E65102D9AFF24F6AA842 /* README.md */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AF0E4A32FC5CF9FBDE6F25A /* IO Redirection */ = {
+			isa = PBXGroup;
+			children = (
+				5AF0E3CEA55F2E2B70739B6F /* OutputStringBuf.mm */,
+				5AF0ED6CFC45399B4796F1AE /* OutputStringBuf.h */,
+				5AF0EBEA3A377A8FADBEDD30 /* InputStringBuf.h */,
+				5AF0EA519DA86CA9ADF8A53A /* InputStringBuf.cc */,
+			);
+			name = "IO Redirection";
+			sourceTree = "<group>";
+		};
+		5AF0E4E386E58FEB0E908514 /* Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				5AF0E54932B07989EA778646 /* HHTerminalTableViewCell.mm */,
+				5AF0EB69B4C74CC63FC3A14D /* HHTerminalCommandLine.mm */,
+				5AF0E03B2786931F35EE27D7 /* HHTerminalViewDelegate.h */,
+				5AF0EC68ACF4B7A0C51F6D68 /* HHTerminalViewDataSource.h */,
+				5AF0EB4102D842B8059A81D8 /* HHTerminalTableViewCell.h */,
+				5AF0E07655871D259370BAE0 /* HHTerminalCommandLine.h */,
+				5AF0E40FCD1FAA52BA39188F /* HHTerminalView.h */,
+				5AF0EA0CD6FE86669CBBC2AC /* HHTerminalView.mm */,
+			);
+			name = Terminal;
+			sourceTree = "<group>";
+		};
+		5AF0E8A3208880A56A313FD3 /* TaskWarrior wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				5AF0E674E2CB34DF1C42F4EA /* HHTask.h */,
+				5AF0E2206356A14144727946 /* HHTaskFile.h */,
+				5AF0E97E12D84973B4ECC00A /* HHTask.mm */,
+				5AF0EC419F330F919363E7D0 /* HHTaskFile.mm */,
+				5AF0E6B221C369CCCEC1E645 /* HHTaskWarriorContext.h */,
+				5AF0E45943EC44769E14BF06 /* HHTaskWarriorContext.mm */,
+			);
+			name = "TaskWarrior wrappers";
 			sourceTree = "<group>";
 		};
 		5AF0EBF37DFF478F703BABD3 /* taskwarrior-ios */ = {
 			isa = PBXGroup;
 			children = (
 				5AF0E4735D63A839CDF415A5 /* Supporting Files */,
+				5AF0E4A32FC5CF9FBDE6F25A /* IO Redirection */,
+				5AF0E8A3208880A56A313FD3 /* TaskWarrior wrappers */,
+				5AF0E4E386E58FEB0E908514 /* Terminal */,
 				5AF0E647A30FCA9382A90BFD /* HHAppDelegate.h */,
-				5AF0E1EA685C36245CD3973A /* HHAppDelegate.m */,
-				5AF0EC029D38B35B45A95C51 /* Images.xcassets */,
+				5AF0E1EA685C36245CD3973A /* HHAppDelegate.mm */,
+				5AF0E6F1DB869E6859FBAD7D /* HHTaskViewController.h */,
+				5AF0EC80761280703A52F437 /* HHTaskViewController.mm */,
+				5AF0ED72AA1F8520CEAC3850 /* HHTaskTableViewDataSource.mm */,
+				5AF0EB44F9B26EAC490F150E /* HHTaskTableViewDataSource.h */,
+				5AF0EFA2BA67E99A763F0588 /* HHTaskTableViewCell.mm */,
+				5AF0EDB2ED7652E2145EE52C /* HHTaskTableViewCell.h */,
+				5AF0E60C52D24E666CF51723 /* HHTaskTerminalDataSource.mm */,
+				5AF0E5AB8EBA0B7202CDE73D /* HHTaskTerminalDataSource.h */,
 			);
 			path = "taskwarrior-ios";
 			sourceTree = "<group>";
@@ -144,6 +263,15 @@
 			path = taskwarriorTests;
 			sourceTree = "<group>";
 		};
+		639A82EF1918A2F700D023C6 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				639A82F01918A3E300D023C6 /* AMR_ANSIEscapeHelper.h */,
+				639A82F11918A3E300D023C6 /* AMR_ANSIEscapeHelper.m */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AF0E30193B77586865FFCE0 /* Build configuration list for PBXNativeTarget "taskwarrior" */;
 			buildPhases = (
+				33E339792CB74F17969B612E /* Check Pods Manifest.lock */,
 				5AF0EEB7A5A12613EE5B571E /* Sources */,
 				5AF0E4749D5ADA35353C5AA8 /* Frameworks */,
 				5AF0E89294DB73BED8B5DA67 /* Resources */,
+				AB02AA1E6E1A4CED927C15EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +318,13 @@
 		5AF0E0025708C549817675AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = humblehacker.com;
+				CLASSPREFIX = HH;
+				ORGANIZATIONNAME = "David Whetstone";
+				TargetAttributes = {
+					5AF0E9B4D9BB271BA89F0118 = {
+						TestTargetID = 5AF0EDED7A332AEF81D0E249;
+					};
+				};
 			};
 			buildConfigurationList = 5AF0E29F096E2FAA45A78323 /* Build configuration list for PBXProject "taskwarrior-ios" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,12 +357,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631DDF84190185ED005F8E25 /* .taskrc in Resources */,
 				5AF0E2273ABBFCB1732B64B4 /* InfoPlist.strings in Resources */,
 				5AF0EC0557D0E80D81A8CC4B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33E339792CB74F17969B612E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		AB02AA1E6E1A4CED927C15EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AF0E670921AE893E3A3812E /* Sources */ = {
@@ -242,7 +411,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AF0EB2E4201C001BCF37EBD /* main.m in Sources */,
-				5AF0EE213D1A420FC8B4E5E3 /* HHAppDelegate.m in Sources */,
+				5AF0EE213D1A420FC8B4E5E3 /* HHAppDelegate.mm in Sources */,
+				5AF0E676EB6AA0131296B2F9 /* HHTaskViewController.mm in Sources */,
+				5AF0EC46E934E7515BEFDF60 /* HHTaskTableViewDataSource.mm in Sources */,
+				5AF0E6331CCC24EA33351CD1 /* HHTaskTableViewCell.mm in Sources */,
+				639A82F21918A3E300D023C6 /* AMR_ANSIEscapeHelper.m in Sources */,
+				5AF0EE757FB98A620798B3E6 /* HHTaskTerminalDataSource.mm in Sources */,
+				5AF0EB4FCE74593FB4F82C2F /* OutputStringBuf.mm in Sources */,
+				5AF0EE59FF782D3398F4E4C5 /* InputStringBuf.cc in Sources */,
+				5AF0EFCFA12E2A184C1173FB /* HHTask.mm in Sources */,
+				5AF0E7B0B48B1120D66EA7D0 /* HHTaskFile.mm in Sources */,
+				5AF0E0A6E7536B2674D83D8B /* HHTaskWarriorContext.mm in Sources */,
+				5AF0E2CC3C59EC141ADA39EE /* HHTerminalTableViewCell.mm in Sources */,
+				5AF0E8E4D182C0854F9564A9 /* HHTerminalCommandLine.mm in Sources */,
+				5AF0EF7944698AFC4DED1165 /* HHTerminalView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,13 +460,29 @@
 /* Begin XCBuildConfiguration section */
 		5AF0E17203ADE7BD8A934857 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A357558DC4154259970B0322 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "taskwarrior/taskwarrior-Prefix.pch";
-				INFOPLIST_FILE = "taskwarrior/taskwarrior-Info.plist";
+				GCC_PREFIX_HEADER = "taskwarrior-ios/taskwarrior-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${inherited}",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include/task",
+				);
+				INFOPLIST_FILE = "taskwarrior-ios/taskwarrior-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/taskwarrior-ios-bznvawadrguemngtddkkvjcmwoxt/Build/Products/Debug-iphonesimulator",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"$(BUILT_PRODUCTS_DIR)/include",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -292,6 +490,7 @@
 		5AF0E5C8EBCB84814E06FFE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/taskwarrior.app/taskwarrior";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -300,6 +499,7 @@
 				GCC_PREFIX_HEADER = "taskwarrior/taskwarrior-Prefix.pch";
 				INFOPLIST_FILE = "taskwarriorTests/taskwarriorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -322,6 +522,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -336,22 +537,41 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		5AF0ECC487A072DA4C745366 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A357558DC4154259970B0322 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "taskwarrior/taskwarrior-Prefix.pch";
-				INFOPLIST_FILE = "taskwarrior/taskwarrior-Info.plist";
+				GCC_PREFIX_HEADER = "taskwarrior-ios/taskwarrior-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${inherited}",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include/task",
+				);
+				INFOPLIST_FILE = "taskwarrior-ios/taskwarrior-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/taskwarrior-ios-bznvawadrguemngtddkkvjcmwoxt/Build/Products/Debug-iphonesimulator",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"$(BUILT_PRODUCTS_DIR)/include",
+					"-isystem",
+					"$(BUILT_PRODUCTS_DIR)/include/task",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -359,6 +579,7 @@
 		5AF0EF614AC1C39DFBFE7974 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/taskwarrior.app/taskwarrior";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +588,7 @@
 				GCC_PREFIX_HEADER = "taskwarrior/taskwarrior-Prefix.pch";
 				INFOPLIST_FILE = "taskwarriorTests/taskwarriorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -389,6 +611,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 0;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -397,10 +620,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -423,6 +647,7 @@
 				5AF0ECC487A072DA4C745366 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AF0EB2F4CCB47AC2E1604F3 /* Build configuration list for PBXNativeTarget "taskwarriorTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +656,7 @@
 				5AF0EF614AC1C39DFBFE7974 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
