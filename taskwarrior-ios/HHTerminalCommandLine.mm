@@ -7,6 +7,7 @@
 //
 
 #import <AutoLayoutDSL/AutoLayoutDSL.h>
+#import <UIView+AutoLayoutDSLSugar.h>
 #import <algorithm>
 #import "HHTerminalCommandLine.h"
 
@@ -97,15 +98,15 @@ typedef enum
         [self.promptView setContentCompressionResistancePriority:501 forAxis:UILayoutConstraintAxisHorizontal];
         [self.promptView setContentHuggingPriority:501 forAxis:UILayoutConstraintAxisHorizontal];
 
-        View(self.promptView).top() == View().top();
-        View(self.promptView).height() == View(self.textField).height();
-        View(self.promptView).left() == View().left();
+        self.promptView.top == View().top;
+        self.promptView.height == self.textField.height;
+        self.promptView.left == View().left;
 
-        View(self.textField).top() == View().top();
-        View(self.textField).right() == View().right();
+        self.textField.top == View().top;
+        self.textField.right == View().right;
 
-        View(self.textField).left() == View(self.promptView).right();
-        View(self.textField).height() == View().height();
+        self.textField.left == self.promptView.right;
+        self.textField.height == View().height;
 
     EndConstraints
 }

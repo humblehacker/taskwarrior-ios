@@ -10,6 +10,7 @@
 #import <BlocksKit/UIView+BlocksKit.h>
 #import <AutoLayoutDSL/AutoLayoutDSL.h>
 #import <AutoLayoutDSL/HHMainView.h>
+#import <UIView+AutoLayoutDSLSugar.h>
 #import "HHTaskTableViewDataSource.h"
 #import "HHLog.h"
 #import "HHTaskViewController.h"
@@ -133,15 +134,15 @@ const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
     BeginConstraints
 
-    View(self.terminalView).minX() == View().minX() + margin.left;
-    View(self.terminalView).maxX() == View().maxX() - margin.right;
-    View(self.terminalView).minY() == View().minY() + margin.top;
-    View(self.terminalView).height() == View().height() * 0.7;
+    self.terminalView.left == View().left + margin.left;
+    self.terminalView.right == View().right - margin.right;
+    self.terminalView.top == View().top + margin.top;
+    self.terminalView.height == View().height * 0.7;
 
-    View(self.tasksTable).minX() == View().minX() + margin.left;
-    View(self.tasksTable).maxX() == View().maxX() - margin.right;
-    View(self.tasksTable).minY() == View(self.terminalView).maxY() + StandardVerticalGap;
-    View(self.tasksTable).maxY() == View().maxY() - margin.bottom;
+    self.tasksTable.left == View().left + margin.left;
+    self.tasksTable.right == View().right - margin.right;
+    self.tasksTable.top == self.terminalView.bottom + StandardVerticalGap;
+    self.tasksTable.bottom == View().bottom - margin.bottom;
 
     EndConstraints
 

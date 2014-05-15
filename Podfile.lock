@@ -1,20 +1,20 @@
 PODS:
-  - AutoLayoutDSL (0.2.1):
+  - AutoLayoutDSL (1.0.0):
     - BlocksKit (~> 2.0)
     - libextobjc/EXTScope (~> 0.4)
-  - BlocksKit (2.2.2):
+  - BlocksKit (2.2.3):
     - BlocksKit/All
-  - BlocksKit/All (2.2.2):
+  - BlocksKit/All (2.2.3):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
     - BlocksKit/MessageUI
     - BlocksKit/UIKit
-  - BlocksKit/Core (2.2.2)
-  - BlocksKit/DynamicDelegate (2.2.2)
-  - BlocksKit/MessageUI (2.2.2):
+  - BlocksKit/Core (2.2.3)
+  - BlocksKit/DynamicDelegate (2.2.3)
+  - BlocksKit/MessageUI (2.2.3):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - BlocksKit/UIKit (2.2.2):
+  - BlocksKit/UIKit (2.2.3):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - CocoaLumberjack (1.8.1):
@@ -32,8 +32,8 @@ DEPENDENCIES:
   - CocoaLumberjack
 
 SPEC CHECKSUMS:
-  AutoLayoutDSL: 052666c57becadf22b212f01c70409f2ac331b51
-  BlocksKit: 125e4e69a62e3b85bacc5175737dae000b00b9fb
+  AutoLayoutDSL: 7e5a6ce1ebff228a30af18fe63535251a31b2f96
+  BlocksKit: d2f8e007646282b4ffc525c15bdf432ad3d11d78
   CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
   libextobjc: 2c9fc8226f0f38e562587f65172f93f0c9b4a47a
 

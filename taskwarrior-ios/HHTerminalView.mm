@@ -8,6 +8,7 @@
 
 
 #import <AutoLayoutDSL/AutoLayoutDSL.h>
+#import <UIView+AutoLayoutDSLSugar.h>
 #import "HHTerminalView.h"
 #import "HHTerminalTableViewCell.h"
 #import "HHTerminalViewDataSource.h"
@@ -162,14 +163,14 @@ NSString *const HHTerminalCellID = @"HHTerminalCellID";
 
     BeginConstraints
 
-        View(self.tableView).top() == View().top();
-        View(self.tableView).left() == View().left();
-        View(self.tableView).width() == View().width();
+        self.tableView.top == View().top;
+        self.tableView.left == View().left;
+        self.tableView.width == View().width;
 
-        View(self.commandLine).top() == View(self.tableView).bottom();
-        View(self.commandLine).bottom() == View().bottom();
-        View(self.commandLine).left() == View().left();
-        View(self.commandLine).width() == View().width();
+        self.commandLine.top == self.tableView.bottom;
+        self.commandLine.bottom == View().bottom;
+        self.commandLine.left == View().left;
+        self.commandLine.width == View().width;
 
     EndConstraints
 }
